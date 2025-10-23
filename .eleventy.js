@@ -2,6 +2,9 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { minify } = require("html-minifier-terser");
 const CleanCSS = require("clean-css");
 
+// Detect production environment
+const isProduction = process.env.CONTEXT === "production" || process.env.NODE_ENV === "production";
+
 module.exports = function(eleventyConfig) {
   // Add RSS plugin
   eleventyConfig.addPlugin(pluginRss);
@@ -10,6 +13,21 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/sw.js");
   
+  // Add minification for production only
+  if (isProduction) {
+    eleventyConfig.addTransform("html", function(content, outputPath) {
+      if (outputPath && outputPath.endsWith(".html")) {
+        return minify(content, {
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          removeAttributeQuotes: true,
+          minifyJS: true
+        });
+      }
+      return content;
+    });
+  }
+
   // Add minification for production
   eleventyConfig.addPlugin(CleanCSS, {
     output: "dist/assets/css/style.min.css", // Fixed path
