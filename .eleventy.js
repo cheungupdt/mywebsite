@@ -1,4 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { minify } = require("html-minifier-terser");
+const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
   // Add RSS plugin
@@ -6,31 +8,46 @@ module.exports = function(eleventyConfig) {
   
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("src/assets");
-  
-  // Add passthrough copy for service worker
   eleventyConfig.addPassthroughCopy("src/sw.js");
   
-  // Add collections for blog posts
+  // Add minification for production
+  eleventyConfig.addPlugin(CleanCSS, {
+    output: "dist/assets/css/style.min.css", // Fixed path
+    options: {
+      level: 2
+    }
+  });
+  
+  // Add transform for production
+  eleventyConfig.addTransform("html", function(content, outputPath) {
+    if (process.env.NODE_ENV === "production") {
+      return minify(content, {
+        collapseWhitespace: true,
+        conservativeCollapse: true,
+        removeAttributeQuotes: true,
+        minifyJS: true
+      });
+    }
+    return content;
+  });
+  
+  // Add collections
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getFilteredByGlob("src/_subsites/blog/posts/**/*.md");
   });
   
-  // Add collection for projects
   eleventyConfig.addCollection("projects", function(collection) {
     return collection.getFilteredByGlob("src/projects/**/*.md");
   });
   
-  // Add collection for achievements
   eleventyConfig.addCollection("achievements", function(collection) {
     return collection.getFilteredByGlob("src/achievements/**/*.md");
   });
   
-  // Add collection for speaking engagements
   eleventyConfig.addCollection("speaking", function(collection) {
     return collection.getFilteredByGlob("src/speaking/**/*.md");
   });
   
-  // Add collections for expertise sections
   eleventyConfig.addCollection("robotics", function(collection) {
     return collection.getFilteredByGlob("src/robotics/**/*.md");
   });
@@ -46,13 +63,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("innovation", function(collection) {
     return collection.getFilteredByGlob("src/innovation/**/*.md");
   });
-
-  // Add collection for contact pages
+  
   eleventyConfig.addCollection("contact", function(collection) {
     return collection.getFilteredByGlob("src/contact/**/*.md");
   });
-
-  // Add collection for showcase pages
+  
   eleventyConfig.addCollection("showcase", function(collection) {
     return collection.getFilteredByGlob("src/showcase/**/*.md");
   });
@@ -103,10 +118,10 @@ module.exports = function(eleventyConfig) {
     return tagPages;
   });
   
-  // Add date filter (with fixed syntax)
+  // Add date filter
   eleventyConfig.addFilter("date", function(date, format) {
     const d = new Date(date);
-    const months = ["January", "February", "March", "April", "month", "May", "June", 
+    const months = ["January", "February", "March", "April", "May", "June", 
                    "July", "August", "September", "October", "November", "December"];
     return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
   });
@@ -161,7 +176,14 @@ module.exports = function(eleventyConfig) {
     return `
 <div class="diagram-container chart-container">
   <h3 class="diagram-title">${title}</h3>
-  <p class="diagram-description">${description}</p>
+  <p class="deployment section">
+    <h3 class="deployment-title">Deployment</h3>
+    <div class="deployment-content">
+      <h4>Production</h4>
+      <p>Deployed to Netlify with automatic builds from main branch</p>
+      <div class="deployment-badge">Live</div>
+    </div>
+  </p>
   <div class="chart-wrapper">
     <canvas id="chart-${id}" width="400" height="200"></canvas>
   </div>
@@ -194,7 +216,7 @@ module.exports = function(eleventyConfig) {
       includes: "_includes",
       data: "_data"
     },
-    templateFormats: ["md", "njk", "html"],
+    templateFormats: ["md", "njk", "html","html"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"

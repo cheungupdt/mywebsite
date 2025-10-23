@@ -2,7 +2,7 @@
   "title": "KCS Team",
   "description": "Professional multi-subdomain for KCS Team",
   "author": "KCS Team", 
-  "url": "http://localhost:8080",
+  "url": "https://kcsteam.org",
   "email": "contact@kcsteam.org",
   "diagrams": {
     "theme": "dark",

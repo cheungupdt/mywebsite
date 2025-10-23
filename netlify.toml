@@ -1,0 +1,72 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+[build.processing]
+  CSS_MINIFY = true
+  JS_MINIFY = true
+  HTML_MINIFY = true
+  IMAGE_OPTIMIZE = true
+
+[build.redirects]
+  FROM = "/*"
+  TO = "/404.html"
+  STATUS = 404
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/projects/*"
+  to = "/projects/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/achievements/*"
+  to = "/achievements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/speaking/*"
+  to = "/speaking/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/diagrams/*"
+  to = "https://diagrams.kcsteam.org"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/leadership/*"
+  to = "https://leadership.kcsteam.org"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/innovation/*"
+  to = "https://innovation.kcsteam.org"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robotics/*"
+  to = "https://robotics.kcsteam.org"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/n8nchief/*"
+  to = "https://n8n.kcsteam.org"
+  status = 301
+  force = true

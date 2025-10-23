@@ -1,0 +1,111 @@
+---
+title: Sitemap
+layout: layouts/base.njk
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://kcsteam.org/</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  {% for post in collections.posts %}
+  <url>
+    <loc>{{ post.url }}</loc>
+    <lastmod>{{ post.date | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.projects %}
+  <url>
+    <loc>{{ page.url }}</loc>
+    <lastmod>{{ page.date | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.achievements %}
+  <url>
+    <loc>{{ page.url }}</loc>
+    <lastmod>{{ page.date | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.speaking %}
+  <url>
+    <loc>{{ page.url }}</loc>
+    <lastmod>{{ page.date | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.diagrams %}
+  <url>
+    <loc>https://diagrams.kcsteam.org</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.robotics %}
+  <url>
+    <loc>https://robotics.kcsteam.org</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.n8nchief %}
+  <url>
+    <loc>https://n8n.kcsteam.org</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.leadership %}
+  <url>
+    <loc>https://leadership.kcsteam.org</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.innovation %}
+  <url>
+    <loc>https://innovation.kcsteam.org</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  {% for page in collections.showcase %}
+  <url>
+    <loc>{{ page.url }}</loc>
+    <lastmod>{{ page.date | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  
+  <url>
+    <loc>https://contact.kcsteam.org</loc>
+    <lastmod>{{ "now" | date("YYYY-MM-DD") }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

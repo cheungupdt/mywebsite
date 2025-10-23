@@ -1,35 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KCS Team - Blog</title>
+    <title>KCS Team - RSS Feed</title>
     <description>Professional multi-subdomain for KCS Team</description>
-    <link>http://localhost:8080/blog/</link>
-    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://kcsteam.org</link>
+    <atom:link href="https://kcsteam.org/feed.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <lastBuildDate>January 15, 2024</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 08:00:00 GMT</lastBuildDate>
+    <generator>https://11ty.dev</generator>
+    
     
     <item>
-      <title>Welcome to My Blog</title>
-      <description>Welcome to my new blog where I share daily insights on robotics, automation, and innovation.</description>
-      <link>http://localhost:8080/blog/welcome/</link>
-      <guid>http://localhost:8080/blog/welcome/</guid>
-      <pubDate>January 15, 2024</pubDate>
+      <title>Automation Insights: Streamlining Workflows with n8n</title>
+      <description>How I'm using n8n to create powerful automation workflows that save time and increase efficiency.</description>
+      <link>https://kcsteam.org/blog/automation-insights/</link>
+      <guid>https://kcsteam.org/blog/automation-insights/</guid>
+      <pubDate>Sat, 13 Jan 2024 08:00:00 GMT</pubDate>
     </item>
     
     <item>
       <title>My Robotics Journey: From Concept to Reality</title>
       <description>Reflecting on my journey in robotics, from early concepts to real-world applications.</description>
-      <link>http://localhost:8080/blog/robotics-journey/</link>
-      <guid>http://localhost:8080/blog/robotics-journey/</guid>
-      <pubDate>January 14, 2024</pubDate>
+      <link>https://kcsteam.org/blog/robotics-journey/</link>
+      <guid>https://kcsteam.org/blog/robotics-journey/</guid>
+      <pubDate>Sun, 14 Jan 2024 08:00:00 GMT</pubDate>
     </item>
     
     <item>
-      <title>Automation Insights: Streamlining Workflows with n8n</title>
-      <description>How I'm using n8n to create powerful automation workflows that save time and increase efficiency.</description>
-      <link>http://localhost:8080/blog/automation-insights/</link>
-      <guid>http://localhost:8080/blog/automation-insights/</guid>
-      <pubDate>January 13, 2024</pubDate>
+      <title>Welcome to My Blog</title>
+      <description>Welcome to my new blog where I share daily insights on robotics, automation, and innovation.</description>
+      <link>https://kcsteam.org/blog/welcome/</link>
+      <guid>https://kcsteam.org/blog/welcome/</guid>
+      <pubDate>Mon, 15 Jan 2024 08:00:00 GMT</pubDate>
     </item>
     
   </channel>
