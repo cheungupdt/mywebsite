@@ -21,10 +21,6 @@
     {% endif %}
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - RSS Feed" href="/feed.xml">
-    
-    <!-- Preload critical resources -->
-
-    <link rel="preload" href="/assets/css/showcase.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 </head>
 <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -77,8 +73,8 @@
         </div>
     </footer>
 
-    <!-- Chatbot - Always loaded for global access -->
-    {# {% include "components/chatbot.njk" %} #}
+    <!-- Floating Chatbot - Load on all pages -->
+    {% include "components/floating-chatbot.njk" %}
 
     <!-- Core Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -99,7 +95,7 @@
     {% endif %}
 
     <!-- Chatbot script - Always loaded -->
-    {# <script src="/assets/js/chatbot.js"></script> #}
+    <script src="/assets/js/chatbot.js"></script>
 
     <!-- Performance monitoring script -->
     <script>
@@ -109,17 +105,8 @@
                 const perfData = window.performance.timing;
                 const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
                 
-                // Ensure we have a valid time
                 if (pageLoadTime > 0) {
                     console.log('Page load time:', pageLoadTime + 'ms');
-                    
-                    // Track performance metrics (you can send this to analytics)
-                    if (window.gtag) {
-                        gtag('event', 'page_load_time', {
-                            'value': pageLoadTime,
-                            'custom_parameter': pageLoadTime
-                        });
-                    }
                 }
             }
         });
@@ -136,19 +123,6 @@
                     });
             });
         }
-    </script>
-
-    <!-- Error tracking script -->
-    <script>
-        window.addEventListener('error', function(e) {
-            console.error('JavaScript error:', e.error);
-            // You can send this to an error tracking service
-        });
-
-        // Handle unhandled promise rejections
-        window.addEventListener('unhandledrejection', function(e) {
-            console.error('Unhandled promise rejection:', e.reason);
-        });
     </script>
 </body>
 </html>
