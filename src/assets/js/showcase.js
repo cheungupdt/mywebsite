@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('Error initializing performance demo:', error);
   }
   
-  // REMOVED: Chatbot demo initialization - now handled by chatbot.js
+  // Chatbot is now handled by chatbot.js - no initialization needed here
   console.log('Chatbot initialization handled by chatbot.js');
 });
 
