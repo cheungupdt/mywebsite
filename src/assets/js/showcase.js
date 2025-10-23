@@ -36,13 +36,8 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('Error initializing performance demo:', error);
   }
   
-  // Initialize chatbot demo
-  try {
-    initChatbotDemo();
-    console.log('Chatbot demo initialized');
-  } catch (error) {
-    console.error('Error initializing chatbot demo:', error);
-  }
+  // REMOVED: Chatbot demo initialization - now handled by chatbot.js
+  console.log('Chatbot initialization handled by chatbot.js');
 });
 
 // 3D Models Initialization (Canvas-based)
@@ -350,63 +345,3 @@ function initPerformanceDemo() {
     });
   }
 }
-/*
-// Chatbot Demo
-function initChatbotDemo() {
-  console.log('Initializing chatbot demo...');
-  
-  const tryChatbotBtn = document.getElementById('try-chatbot-btn');
-  
-  if (tryChatbotBtn) {
-    tryChatbotBtn.addEventListener('click', () => {
-      console.log('Opening chatbot...');
-      
-      // Open the floating chatbot instead of the old one
-      const floatingChatbot = document.getElementById('floating-chatbot');
-      const chatbotToggle = document.getElementById('chatbot-toggle');
-      
-      if (floatingChatbot && chatbotToggle) {
-        floatingChatbot.classList.remove('minimized');
-      }
-    });
-  }
-}
-*/
-
-// Floating Chatbot toggle functionality
-function initFloatingChatbot() {
-    console.log('Initializing floating chatbot...');
-    
-    const chatbotToggle = document.getElementById('chatbot-toggle');
-    const floatingChatbot = document.getElementById('floating-chatbot');
-    const chatbotClose = document.getElementById('floating-chatbot-close');
-    
-    if (chatbotToggle && floatingChatbot) {
-        console.log('Found floating chatbot elements');
-        chatbotToggle.addEventListener('click', () => {
-            console.log('Chatbot toggle clicked');
-            floatingChatbot.classList.toggle('minimized');
-        });
-        
-        if (chatbotClose) {
-            chatbotClose.addEventListener('click', (e) => {
-                e.stopPropagation();
-                floatingChatbot.classList.add('minimized');
-            });
-        }
-    } else {
-        console.log('Floating chatbot elements not found:', {
-            toggle: !!chatbotToggle,
-            chatbot: !!floatingChatbot,
-            close: !!chatbotClose
-        });
-    }
-}
-/*
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded - initializing showcase chatbots');
-    initFloatingChatbot();
-    initChatbotDemo();
-});
-*/

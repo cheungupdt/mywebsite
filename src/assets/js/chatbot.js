@@ -9,6 +9,7 @@ class Chatbot {
   }
   
   init() {
+    console.log('🔧 Global Chatbot initializing...');
     this.setupEventListeners();
     this.loadConversationHistory();
   }
@@ -20,34 +21,47 @@ class Chatbot {
     const input = document.getElementById('chatbot-input');
     const suggestions = document.querySelectorAll('.suggestion-btn');
     
+    if (!toggle) {
+      console.log('❌ Global chatbot toggle not found');
+      return;
+    }
+    
+    console.log('✅ Global chatbot elements found');
+    
     // Toggle chat window
     toggle.addEventListener('click', () => {
       this.toggleChat();
     });
     
     // Close chat window
-    close.addEventListener('click', () => {
-      this.closeChat();
-    });
+    if (close) {
+      close.addEventListener('click', () => {
+        this.closeChat();
+      });
+    }
     
     // Send message
-    send.addEventListener('click', () => {
-      this.sendMessage();
-    });
+    if (send) {
+      send.addEventListener('click', () => {
+        this.sendMessage();
+      });
+    }
     
     // Enter key to send
-    input.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter' && !e.shiftKey) {
-        e.preventDefault();
-        this.sendMessage();
-      }
-    });
+    if (input) {
+      input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          this.sendMessage();
+        }
+      });
+    }
     
     // Suggestion buttons
     suggestions.forEach(btn => {
       btn.addEventListener('click', () => {
         const suggestion = btn.getAttribute('data-suggestion');
-        input.value = suggestion;
+        if (input) input.value = suggestion;
         this.sendMessage();
       });
     });
@@ -60,232 +74,10 @@ class Chatbot {
     });
   }
   
-  toggleChat() {
-    if (this.isOpen) {
-      this.closeChat();
-    } else {
-      this.openChat();
-    }
-  }
-  
-  openChat() {
-    const container = document.getElementById('chatbot-container');
-    const window = document.getElementById('chatbot-window');
-    
-    container.classList.add('open');
-    window.classList.add('open');
-    this.isOpen = true;
-    
-    // Clear badge
-    this.clearBadge();
-    
-    // Focus input
-    setTimeout(() => {
-      document.getElementById('chatbot-input').focus();
-    }, 300);
-  }
-  
-  closeChat() {
-    const container = document.getElementById('chatbot-container');
-    const window = document.getElementById('chatbot-window');
-    
-    container.classList.remove('open');
-    window.classList.remove('open');
-    this.isOpen = false;
-  }
-  
-  async sendMessage() {
-    const input = document.getElementById('chatbot-input');
-    const message = input.value.trim();
-    
-    if (!message || this.isTyping) return;
-    
-    // Add user message
-    this.addMessage(message, 'user');
-    
-    // Clear input
-    input.value = '';
-    
-    // Show typing indicator
-    this.showTypingIndicator();
-    
-    try {
-      // Send to n8n workflow
-      const response = await this.sendToN8N(message);
-      
-      // Hide typing indicator
-      this.hideTypingIndicator();
-      
-      // Add bot response
-      this.addMessage(response.message, 'bot', response.actions);
-      
-      // Save to history
-      this.saveConversationHistory();
-      
-    } catch (error) {
-      console.error('Error sending message:', error);
-      this.hideTypingIndicator();
-      this.addMessage('Sorry, I encountered an error. Please try again.', 'bot');
-    }
-  }
-  
-  async sendToN8N(message) {
-    const payload = {
-      message: message,
-      conversationHistory: this.conversationHistory.slice(-5), // Send last 5 messages for context
-      timestamp: new Date().toISOString(),
-      sessionId: this.getSessionId()
-    };
-    
-    const response = await fetch(this.n8nWebhookUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payload)
-    });
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    return await response.json();
-  }
-  
-  addMessage(message, sender, actions = []) {
-    const messagesContainer = document.getElementById('chatbot-messages');
-    const messageElement = document.createElement('div');
-    messageElement.className = `message ${sender}-message`;
-    
-    const avatar = document.createElement('div');
-    avatar.className = 'message-avatar';
-    avatar.innerHTML = sender === 'bot' ? '<i class="icon-robot"></i>' : '<i class="icon-user"></i>';
-    
-    const content = document.createElement('div');
-    content.className = 'message-content';
-    
-    // Parse markdown-like syntax
-    const formattedMessage = this.formatMessage(message);
-    content.innerHTML = formattedMessage;
-    
-    // Add actions if provided
-    if (actions && actions.length > 0) {
-      const actionsContainer = document.createElement('div');
-      actionsContainer.className = 'message-actions';
-      
-      actions.forEach(action => {
-        const actionBtn = document.createElement('button');
-        actionBtn.className = 'action-btn';
-        actionBtn.textContent = action.label;
-        actionBtn.addEventListener('click', () => {
-          this.handleAction(action);
-        });
-        actionsContainer.appendChild(actionBtn);
-      });
-      
-      content.appendChild(actionsContainer);
-    }
-    
-    messageElement.appendChild(avatar);
-    messageElement.appendChild(content);
-    messagesContainer.appendChild(messageElement);
-    
-    // Scroll to bottom
-    messagesContainer.scrollTop = messagesContainer.scrollHeight;
-    
-    // Add to history
-    this.conversationHistory.push({
-      message: message,
-      sender: sender,
-      timestamp: new Date().toISOString()
-    });
-    
-    // Show badge if chat is closed
-    if (!this.isOpen && sender === 'bot') {
-      this.showBadge();
-    }
-  }
-  
-  formatMessage(message) {
-    // Simple markdown-like formatting
-    return message
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/`(.*?)`/g, '<code>$1</code>')
-      .replace(/\n/g, '<br>');
-  }
-  
-  handleAction(action) {
-    switch (action.type) {
-      case 'link':
-        window.open(action.url, '_blank');
-        break;
-      case 'email':
-        window.location.href = `mailto:${action.email}`;
-        break;
-      case 'suggestion':
-        document.getElementById('chatbot-input').value = action.text;
-        this.sendMessage();
-        break;
-      default:
-        console.log('Unknown action type:', action.type);
-    }
-  }
-  
-  showTypingIndicator() {
-    this.isTyping = true;
-    document.getElementById('typing-indicator').style.display = 'flex';
-    
-    // Scroll to bottom
-    const messagesContainer = document.getElementById('chatbot-messages');
-    messagesContainer.scrollTop = messagesContainer.scrollHeight;
-  }
-  
-  hideTypingIndicator() {
-    this.isTyping = false;
-    document.getElementById('typing-indicator').style.display = 'none';
-  }
-  
-  showBadge() {
-    const badge = document.getElementById('chat-badge');
-    badge.textContent = '1';
-    badge.style.display = 'flex';
-  }
-  
-  clearBadge() {
-    const badge = document.getElementById('chat-badge');
-    badge.textContent = '';
-    badge.style.display = 'none';
-  }
-  
-  getSessionId() {
-    let sessionId = localStorage.getItem('chatbot_session_id');
-    if (!sessionId) {
-      sessionId = 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-      localStorage.setItem('chatbot_session_id', sessionId);
-    }
-    return sessionId;
-  }
-  
-  saveConversationHistory() {
-    try {
-      localStorage.setItem('chatbot_history', JSON.stringify(this.conversationHistory));
-    } catch (e) {
-      console.error('Error saving conversation history:', e);
-    }
-  }
-  
-  loadConversationHistory() {
-    try {
-      const history = localStorage.getItem('chatbot_history');
-      if (history) {
-        this.conversationHistory = JSON.parse(history);
-      }
-    } catch (e) {
-      console.error('Error loading conversation history:', e);
-    }
-  }
+  // ... keep all your existing Chatbot class methods unchanged ...
+  // (toggleChat, openChat, closeChat, sendMessage, etc.)
 }
+
 // Unified Chatbot Integration
 class UnifiedChatbot {
   constructor() {
@@ -295,7 +87,10 @@ class UnifiedChatbot {
   }
   
   init() {
-    console.log('Initializing unified chatbot system...');
+    console.log('🚀 Unified Chatbot System initializing...');
+    
+    // Run debug first to see what we're working with
+    this.debugChatbotIssues();
     
     // Initialize floating chatbot (showcase version)
     this.initFloatingChatbot();
@@ -307,18 +102,49 @@ class UnifiedChatbot {
     this.setupChatbotConnections();
   }
   
+  debugChatbotIssues() {
+    console.log('=== CHATBOT DEBUG INFO ===');
+    console.log('Browser:', navigator.userAgent);
+    console.log('Page URL:', window.location.href);
+    
+    const elements = {
+      'floating-chatbot': document.getElementById('floating-chatbot'),
+      'chatbot-toggle': document.getElementById('chatbot-toggle'),
+      'chatbot-container': document.getElementById('chatbot-container'),
+      'floating-chatbot-close': document.getElementById('floating-chatbot-close'),
+      'try-chatbot-btn': document.getElementById('try-chatbot-btn'),
+      'chatbot-window': document.getElementById('chatbot-window')
+    };
+    
+    Object.entries(elements).forEach(([name, element]) => {
+      if (element) {
+        const styles = window.getComputedStyle(element);
+        console.log(`✅ ${name}:`, {
+          exists: true,
+          display: styles.display,
+          position: styles.position,
+          visible: styles.display !== 'none' && styles.visibility !== 'hidden',
+          classes: element.className,
+          minimized: element.classList.contains('minimized')
+        });
+      } else {
+        console.log(`❌ ${name}: NOT FOUND`);
+      }
+    });
+  }
+  
   initFloatingChatbot() {
-    console.log('Setting up floating chatbot...');
+    console.log('🔧 Setting up floating chatbot...');
     
     const chatbotToggle = document.getElementById('chatbot-toggle');
     const floatingChatbot = document.getElementById('floating-chatbot');
     const chatbotClose = document.getElementById('floating-chatbot-close');
     
     if (chatbotToggle && floatingChatbot) {
-      console.log('Found floating chatbot elements');
+      console.log('✅ Found floating chatbot elements');
       
       chatbotToggle.addEventListener('click', () => {
-        console.log('Chatbot toggle clicked');
+        console.log('🎯 Chatbot toggle clicked');
         floatingChatbot.classList.toggle('minimized');
         
         // Focus input when opening
@@ -339,20 +165,24 @@ class UnifiedChatbot {
       
       this.floatingChatbot = floatingChatbot;
     } else {
-      console.log('Floating chatbot elements not found');
+      console.log('❌ Floating chatbot elements not found:', {
+        toggle: !!chatbotToggle,
+        chatbot: !!floatingChatbot,
+        close: !!chatbotClose
+      });
     }
   }
   
   initGlobalChatbot() {
-    console.log('Setting up global chatbot...');
+    console.log('🔧 Setting up global chatbot...');
     
     // Check if global chatbot elements exist
     const globalContainer = document.getElementById('chatbot-container');
     if (globalContainer) {
-      console.log('Global chatbot found, initializing...');
+      console.log('✅ Global chatbot found, initializing...');
       this.globalChatbot = new Chatbot();
     } else {
-      console.log('No global chatbot container found');
+      console.log('ℹ️ No global chatbot container found');
     }
   }
   
@@ -360,8 +190,9 @@ class UnifiedChatbot {
     // Connect "Try the real chatbot" button to open floating chatbot
     const tryChatbotBtn = document.getElementById('try-chatbot-btn');
     if (tryChatbotBtn) {
+      console.log('✅ Found try chatbot button');
       tryChatbotBtn.addEventListener('click', () => {
-        console.log('Try chatbot button clicked');
+        console.log('🎯 Try chatbot button clicked');
         
         if (this.floatingChatbot) {
           this.floatingChatbot.classList.remove('minimized');
@@ -373,6 +204,8 @@ class UnifiedChatbot {
           }, 300);
         }
       });
+    } else {
+      console.log('❌ Try chatbot button not found');
     }
     
     // Connect floating chat input to send messages
@@ -384,6 +217,8 @@ class UnifiedChatbot {
     const floatingSendBtn = document.getElementById('floating-send-btn');
     
     if (floatingInput && floatingSendBtn) {
+      console.log('✅ Setting up floating chat input');
+      
       // Send message on button click
       floatingSendBtn.addEventListener('click', () => {
         this.sendFloatingMessage();
@@ -396,6 +231,11 @@ class UnifiedChatbot {
           this.sendFloatingMessage();
         }
       });
+    } else {
+      console.log('❌ Floating chat input elements not found:', {
+        input: !!floatingInput,
+        sendBtn: !!floatingSendBtn
+      });
     }
   }
   
@@ -405,6 +245,8 @@ class UnifiedChatbot {
     const messagesContainer = document.querySelector('.floating-messages');
     
     if (!message) return;
+    
+    console.log('💬 Sending floating message:', message);
     
     // Add user message to floating chat
     this.addFloatingMessage(message, 'user');
@@ -426,7 +268,10 @@ class UnifiedChatbot {
   
   addFloatingMessage(message, sender) {
     const messagesContainer = document.querySelector('.floating-messages');
-    if (!messagesContainer) return;
+    if (!messagesContainer) {
+      console.log('❌ Floating messages container not found');
+      return;
+    }
     
     const messageElement = document.createElement('div');
     messageElement.className = `floating-message ${sender}`;
@@ -445,71 +290,13 @@ class UnifiedChatbot {
     
     // Scroll to bottom
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    
+    console.log(`💬 Added ${sender} message to floating chat`);
   }
 }
 
 // Initialize unified chatbot system
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('DOM loaded - initializing unified chatbot system');
+  console.log('🏁 DOM loaded - initializing unified chatbot system');
   window.unifiedChatbot = new UnifiedChatbot();
-});
-
-// Initialize chatbot when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-  new Chatbot();
-});
-
-// Debug browser compatibility - Add this at the END of chatbot.js
-function debugChatbotIssues() {
-  console.log('=== CHATBOT DEBUG INFO ===');
-  console.log('Browser:', navigator.userAgent);
-  console.log('Floating chatbot element:', document.getElementById('floating-chatbot'));
-  console.log('Toggle button:', document.getElementById('chatbot-toggle'));
-  console.log('Global chatbot container:', document.getElementById('chatbot-container'));
-  console.log('CSS loaded:', !!document.querySelector('style, link[rel="stylesheet"]'));
-  
-  // Check for common browser issues
-  const isChrome = /Chrome/.test(navigator.userAgent);
-  const isFirefox = /Firefox/.test(navigator.userAgent);
-  const isEdge = /Edge/.test(navigator.userAgent);
-  
-  if (isChrome) console.log('Chrome detected - checking for extension conflicts');
-  if (isFirefox) console.log('Firefox detected - checking privacy settings');
-  if (isEdge) console.log('Edge detected - checking compatibility mode');
-  
-  // Check element styles
-  const floatingChatbot = document.getElementById('floating-chatbot');
-  if (floatingChatbot) {
-    const styles = window.getComputedStyle(floatingChatbot);
-    console.log('Floating chatbot styles:', {
-      display: styles.display,
-      position: styles.position,
-      visibility: styles.visibility,
-      opacity: styles.opacity,
-      bottom: styles.bottom,
-      right: styles.right,
-      zIndex: styles.zIndex
-    });
-  }
-  
-  const toggleButton = document.getElementById('chatbot-toggle');
-  if (toggleButton) {
-    const styles = window.getComputedStyle(toggleButton);
-    console.log('Toggle button styles:', {
-      display: styles.display,
-      position: styles.position,
-      bottom: styles.bottom,
-      right: styles.right,
-      zIndex: styles.zIndex
-    });
-  }
-}
-
-// Run debug when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('=== RUNNING CHATBOT DEBUG ===');
-  debugChatbotIssues();
-  
-  // Also run after a short delay to catch any dynamic changes
-  setTimeout(debugChatbotIssues, 1000);
 });
