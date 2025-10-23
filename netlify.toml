@@ -5,6 +5,7 @@
 [build.environment]
   NODE_VERSION = "18"
   NPM_VERSION = "9"
+  NODE_ENV = "production"
 
 [build.processing]
   CSS_MINIFY = true
@@ -70,3 +71,17 @@
   to = "/n8nchief/"
   status = 301
   force = true
+
+ # Form settings
+[context.production.environment]
+  NODE_ENV = "production"
+
+# Redirects for form success
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you/"
+  status = 200
+
+# Enable form detection
+[functions]
+  directory = "netlify/functions" 

@@ -226,3 +226,59 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Form Validation Styles */
+.form-group input.valid,
+.form-group textarea.valid,
+.form-group select.valid {
+  border-color: var(--color-success);
+  background-color: rgba(72, 187, 120, 0.05);
+}
+
+.form-group input.error,
+.form-group textarea.error,
+.form-group select.error {
+  border-color: var(--color-error);
+  background-color: rgba(245, 101, 101, 0.05);
+}
+
+.form-group input:focus.valid,
+.form-group textarea:focus.valid,
+.form-group select:focus.valid {
+  border-color: var(--color-success);
+  box-shadow: 0 0 0 3px rgba(72, 187, 120, 0.1);
+}
+
+.form-group input:focus.error,
+.form-group textarea:focus.error,
+.form-group select:focus.error {
+  border-color: var(--color-error);
+  box-shadow: 0 0 0 3px rgba(245, 101, 101, 0.1);
+}
+
+/* Hidden honeypot field */
+.hidden {
+  display: none;
+}
+
+/* Form message styles */
+.form-message {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  display: none;
+}
+
+.form-message.success {
+  background-color: rgba(72, 187, 120, 0.1);
+  color: var(--color-success);
+  border: 1px solid var(--color-success);
+  display: block;
+}
+
+.form-message.error {
+  background-color: rgba(245, 101, 101, 0.1);
+  color: var(--color-error);
+  border: 1px solid var(--color-error);
+  display: block;
+}
