@@ -17,53 +17,98 @@
     {% elif element.type == "voice-synthesis" %}
       {% include "components/voice-synthesis.njk" %}
     {% elif element.type == "chatbot" %}
-      <div class="chatbot-demo">
-        <div class="demo-chatbot">
-          <div class="demo-chatbot-header">
-            <div class="demo-chatbot-info">
-              <div class="demo-chatbot-avatar">
-                <i class="icon-robot"></i>
+      <div class="chatbot-showcase-container">
+        <!-- This is the demo version that stays in the card -->
+        <div class="chatbot-demo-card">
+          <div class="demo-chatbot">
+            <div class="demo-chatbot-header">
+              <div class="demo-chatbot-info">
+                <div class="demo-chatbot-avatar">
+                  <i class="icon-robot"></i>
+                </div>
+                <div class="demo-chatbot-details">
+                  <h3>KC Assistant</h3>
+                  <span class="demo-status online">Online</span>
+                </div>
               </div>
-              <div class="demo-chatbot-details">
-                <h3>KC Assistant</h3>
-                <span class="demo-status online">Online</span>
+            </div>
+            <div class="demo-messages">
+              <div class="demo-message bot">
+                <div class="demo-message-avatar">
+                  <i class="icon-robot"></i>
+                </div>
+                <div class="demo-message-content">
+                  <p>Hello! I'm KC's AI assistant. I can help you learn about KC's expertise in robotics, automation, and n8n workflows.</p>
+                </div>
               </div>
+              <div class="demo-message user">
+                <div class="demo-message-avatar">
+                  <i class="icon-user"></i>
+                </div>
+                <div class="demo-message-content">
+                  <p>What can you do?</p>
+                </div>
+              </div>
+              <div class="demo-message bot">
+                <div class="demo-message-avatar">
+                  <i class="icon-robot"></i>
+                </div>
+                <div class="demo-message-content">
+                  <p>I can help you learn about KC's expertise and assist with various inquiries!</p>
+                </div>
+              </div>
+            </div>
+            <div class="demo-chatbot-input">
+              <input type="text" placeholder="Type your message..." disabled>
+              <button class="demo-send-button" disabled>
+                <i class="icon-send"></i>
+              </button>
+            </div>
+            <div class="demo-chatbot-footer">
+              <button class="demo-try-chatbot" id="try-chatbot-btn">Try the real chatbot →</button>
             </div>
           </div>
-          <div class="demo-messages">
-            <div class="demo-message bot">
-              <div class="demo-message-avatar">
-                <i class="icon-robot"></i>
-              </div>
-              <div class="demo-message-content">
-                <p>Hello! I'm KC's AI assistant. I can help you learn about KC's expertise in robotics, automation, and n8n workflows.</p>
-              </div>
-            </div>
-            <div class="demo-message user">
-              <div class="demo-message-avatar">
-                <i class="icon-user"></i>
-              </div>
-              <div class="demo-message-content">
-                <p>What can you do?</p>
-              </div>
-            </div>
-            <div class="demo-message bot">
-              <div class="demo-message-avatar">
-                <i class="icon-robot"></i>
-              </div>
-              <div class="demo-message-content">
-                <p>I can help you learn about KC's expertise and assist with various inquiries!</p>
+        </div>
+
+        <!-- This is the floating chatbot that appears site-wide -->
+        <div class="floating-chatbot-container">
+          <button class="chatbot-toggle" id="chatbot-toggle">
+            <i class="icon-chat"></i>
+          </button>
+          
+          <div class="floating-chatbot minimized" id="floating-chatbot">
+            <div class="floating-chatbot-header">
+              <div class="floating-chatbot-info">
+                <div class="floating-chatbot-avatar">
+                  <i class="icon-robot"></i>
+                </div>
+                <div class="floating-chatbot-details">
+                  <h3>KC Assistant</h3>
+                  <span class="floating-status online">Online</span>
+                </div>
+                <button class="floating-chatbot-close" id="floating-chatbot-close">
+                  <i class="icon-close"></i>
+                </button>
               </div>
             </div>
-          </div>
-          <div class="demo-chatbot-input">
-            <input type="text" placeholder="Type your message..." disabled>
-            <button class="demo-send-button" disabled>
-              <i class="icon-send"></i>
-            </button>
-          </div>
-          <div class="demo-chatbot-footer">
-            <button class="demo-try-chatbot" id="try-chatbot-btn">Try the real chatbot →</button>
+            
+            <div class="floating-messages">
+              <div class="floating-message bot">
+                <div class="floating-message-avatar">
+                  <i class="icon-robot"></i>
+                </div>
+                <div class="floating-message-content">
+                  <p>Hello! I'm KC's AI assistant. How can I help you today?</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="floating-chatbot-input">
+              <input type="text" placeholder="Type your message..." id="floating-chat-input">
+              <button class="floating-send-button" id="floating-send-btn">
+                <i class="icon-send"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>

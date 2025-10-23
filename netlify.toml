@@ -43,30 +43,30 @@
 
 [[redirects]]
   from = "/diagrams/*"
-  to = "https://diagrams.kcsteam.org"
+  to = "/diagrams/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/leadership/*"
-  to = "https://leadership.kcsteam.org"
+  to = "/leadership/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/innovation/*"
-  to = "https://innovation.kcsteam.org"
+  to = "/innovation/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/robotics/*"
-  to = "https://robotics.kcsteam.org"
+  to = "/robotics/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/n8nchief/*"
-  to = "https://n8n.kcsteam.org"
+  to = "/n8nchief/"
   status = 301
   force = true

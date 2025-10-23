@@ -361,22 +361,50 @@ function initChatbotDemo() {
     tryChatbotBtn.addEventListener('click', () => {
       console.log('Opening chatbot...');
       
-      // Open the actual chatbot
-      const chatbotContainer = document.getElementById('chatbot-container');
-      const chatbotWindow = document.getElementById('chatbot-window');
+      // Open the floating chatbot instead of the old one
+      const floatingChatbot = document.getElementById('floating-chatbot');
+      const chatbotToggle = document.getElementById('chatbot-toggle');
       
-      if (chatbotContainer && chatbotWindow) {
-        chatbotContainer.classList.add('open');
-        chatbotWindow.classList.add('open');
-        
-        // Focus the input
-        setTimeout(() => {
-          const chatbotInput = document.getElementById('chatbot-input');
-          if (chatbotInput) {
-            chatbotInput.focus();
-          }
-        }, 300);
+      if (floatingChatbot && chatbotToggle) {
+        floatingChatbot.classList.remove('minimized');
       }
     });
   }
 }
+
+// Floating Chatbot toggle functionality
+function initFloatingChatbot() {
+    console.log('Initializing floating chatbot...');
+    
+    const chatbotToggle = document.getElementById('chatbot-toggle');
+    const floatingChatbot = document.getElementById('floating-chatbot');
+    const chatbotClose = document.getElementById('floating-chatbot-close');
+    
+    if (chatbotToggle && floatingChatbot) {
+        console.log('Found floating chatbot elements');
+        chatbotToggle.addEventListener('click', () => {
+            console.log('Chatbot toggle clicked');
+            floatingChatbot.classList.toggle('minimized');
+        });
+        
+        if (chatbotClose) {
+            chatbotClose.addEventListener('click', (e) => {
+                e.stopPropagation();
+                floatingChatbot.classList.add('minimized');
+            });
+        }
+    } else {
+        console.log('Floating chatbot elements not found:', {
+            toggle: !!chatbotToggle,
+            chatbot: !!floatingChatbot,
+            close: !!chatbotClose
+        });
+    }
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM loaded - initializing showcase chatbots');
+    initFloatingChatbot();
+    initChatbotDemo();
+});
