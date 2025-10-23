@@ -739,26 +739,22 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 /* Chatbot toggle button */
 .chatbot-toggle {
-  width: 60px;
-  height: 60px;
-  background: var(--color-primary);
-  border-radius: 50%;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0, 122, 204, 0.3);
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10002
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 10002 !important;
+  transform: translateZ(0); /* Hardware acceleration */
 }
+/* Fix for Firefox and Edge positioning */
+body {
+  position: relative;
+}
+
 
 .chatbot-toggle:hover {
   transform: scale(1.1);
@@ -767,22 +763,24 @@
 
 /* Floating chatbot window */
 .floating-chatbot {
-  width: 350px;
-  height: 500px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  z-index: 10001;
-  position: relative;
+  position: fixed !important; /* Force fixed positioning */
+  bottom: 80px !important;   /* Position above toggle button */
+  right: 20px !important;
+  z-index: 10001 !important;
+}
+/* Fix for Chrome flickering */
+.floating-chatbot {
+  transform: translateZ(0); /* Force hardware acceleration */
+  backface-visibility: hidden;
+  perspective: 1000;
 }
 
 /* Minimized state (hidden) */
 .floating-chatbot.minimized {
-  display: none;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transform: scale(0) !important;
 }
 
 /* Floating chatbot header */
@@ -944,14 +942,6 @@
 
 .floating-send-button:hover {
   background-color: var(--color-primary-dark);
-}
-/* temp */
-.floating-chatbot-container {
-  border: 2px solid red !important; /* So you can see where it is */
-}
-
-.chatbot-toggle {
-  background: #ff0000 !important; /* Bright color to see the button */
 }
 /* ===================================
    BUTTON STYLES

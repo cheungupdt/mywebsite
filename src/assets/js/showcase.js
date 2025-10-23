@@ -350,7 +350,7 @@ function initPerformanceDemo() {
     });
   }
 }
-
+/*
 // Chatbot Demo
 function initChatbotDemo() {
   console.log('Initializing chatbot demo...');
@@ -371,6 +371,7 @@ function initChatbotDemo() {
     });
   }
 }
+*/
 
 // Floating Chatbot toggle functionality
 function initFloatingChatbot() {
@@ -401,10 +402,11 @@ function initFloatingChatbot() {
         });
     }
 }
-
+/*
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM loaded - initializing showcase chatbots');
     initFloatingChatbot();
     initChatbotDemo();
 });
+*/
