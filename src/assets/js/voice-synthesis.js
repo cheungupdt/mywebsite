@@ -10,6 +10,9 @@ class VoiceSynthesis {
     }
     
     console.log('✅ Speech Synthesis API is supported');
+    console.log('HTTPS protocol:', window.location.protocol === 'https:');
+    console.log('Browser:', navigator.userAgent);
+    
     this.synth = window.speechSynthesis;
     this.voices = [];
     this.currentUtterance = null;
@@ -253,12 +256,64 @@ class VoiceSynthesis {
   
   startVisualization() {
     console.log('Starting visualization');
-    // ... keep your existing visualization code
+    const canvas = document.getElementById('voice-visualizer');
+    if (!canvas) return;
+    
+    const canvasCtx = canvas.getContext('2d');
+    let animationId;
+    
+    const draw = () => {
+      if (!this.isSpeaking) {
+        cancelAnimationFrame(animationId);
+        return;
+      }
+      
+      animationId = requestAnimationFrame(draw);
+      
+      canvasCtx.fillStyle = 'rgb(240, 240, 240)';
+      canvasCtx.fillRect(0, 0, canvas.width, canvas.height);
+      
+      // Draw simple waveform
+      canvasCtx.strokeStyle = 'rgb(66, 153, 225)';
+      canvasCtx.lineWidth = 2;
+      canvasCtx.beginPath();
+      
+      const width = canvas.width;
+      const height = canvas.height;
+      const amplitude = height / 4;
+      
+      for (let x = 0; x < width; x++) {
+        const y = height / 2 + amplitude * Math.sin(x * 0.05 + Date.now() * 0.002);
+        if (x === 0) {
+          canvasCtx.moveTo(x, y);
+        } else {
+          canvasCtx.lineTo(x, y);
+        }
+      }
+      
+      canvasCtx.stroke();
+    };
+    
+    draw();
   }
   
   stopVisualization() {
     console.log('Stopping visualization');
-    // ... keep your existing visualization code
+    const canvas = document.getElementById('voice-visualizer');
+    if (!canvas) return;
+    
+    const canvasCtx = canvas.getContext('2d');
+    canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+  }
+  
+  // Test method for debugging
+  testVoiceSynthesis(text = 'Hello this is a test') {
+    console.log('Testing voice synthesis...');
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.onstart = () => console.log('Test: Speech started');
+    utterance.onend = () => console.log('Test: Speech ended');
+    utterance.onerror = (e) => console.log('Test: Speech error:', e.error);
+    this.synth.speak(utterance);
   }
 }
 
@@ -270,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (voiceText) {
     console.log('Voice synthesis elements found, initializing...');
     try {
-      new VoiceSynthesis();
+      window.voiceSynthesis = new VoiceSynthesis();
       console.log('VoiceSynthesis initialized successfully');
     } catch (error) {
       console.error('❌ Failed to initialize VoiceSynthesis:', error);
@@ -285,12 +340,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Add a test function to call from browser console
-window.testVoiceSynthesis = function(text = 'Hello this is a test') {
-  console.log('Testing voice synthesis...');
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.onstart = () => console.log('Test: Speech started');
-  utterance.onend = () => console.log('Test: Speech ended');
-  utterance.onerror = (e) => console.log('Test: Speech error:', e.error);
-  window.speechSynthesis.speak(utterance);
+// Global test function (optional - for console debugging)
+window.testVoice = function(text = 'Test message') {
+  if (window.voiceSynthesis) {
+    window.voiceSynthesis.testVoiceSynthesis(text);
+  } else {
+    console.error('VoiceSynthesis not initialized yet');
+  }
 };
