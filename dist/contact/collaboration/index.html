@@ -129,8 +129,14 @@
 <div class="collaboration-form">
   <h2>Interested in Collaborating?</h2>
   <p>Fill out the form below with details about your project or idea, and I'll get back to you as soon as possible.</p>
-  <form class="contact-form" name="contact" method="POST" action="/thank-you/" data-netlify="true">
+  <form class="contact-form" name="contact" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact" />
+  <!-- Honeypot field for spam protection -->
+  <div class="hidden">
+    <label>Don't fill this out if you're human: 
+      <input name="bot-field">
+    </label>
+  </div>
   <div class="form-group">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" required>
