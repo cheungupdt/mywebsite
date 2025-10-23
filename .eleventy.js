@@ -13,6 +13,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/sw.js");
   
+  eleventyConfig.addPassthroughCopy("favicon.ico");
+  
   // Add minification for production only
   if (isProduction) {
     eleventyConfig.addTransform("html", function(content, outputPath) {

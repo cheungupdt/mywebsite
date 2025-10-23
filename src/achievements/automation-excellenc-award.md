@@ -4,7 +4,7 @@ date: 2023-06-20
 organization: International Automation Association
 icon: https://placehold.co/100x100/4ecdc4/ffffff?text=AEA
 description: Recognized for outstanding contributions to industrial automation solutions.
-layout: ../_includes/layouts/achievement-detail.njk
+layout: ../_includes/layouts/base.njk
 ---
 
 # Automation Excellence Award

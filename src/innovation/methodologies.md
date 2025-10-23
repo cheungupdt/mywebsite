@@ -1,6 +1,6 @@
 ---
 title: "Innovation Methodologies"
-layout: "../_includes/layouts/innovation-detail.njk"
+layout: "../_includes/layouts/base.njk"
 tags: ["innovation", "methodologies"]
 description: "Proven innovation frameworks and approaches"
 ---

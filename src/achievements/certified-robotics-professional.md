@@ -5,7 +5,7 @@ organization: Robotics Institute of America
 icon: https://placehold.co/100x100/3366ff/ffffff?text=CRP
 url: https://example.com/certificate
 description: Advanced certification in robotics system design, implementation, and maintenance.
-layout: ../_includes/layouts/achievement-detail.njk
+layout: ../_includes/layouts/base.njk
 ---
 
 # Certified Robotics Professional
