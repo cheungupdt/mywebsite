@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "title": "Reflection: Automation Insights",  
+      "date": "2023-10-15",
+      "tags": ["reflection", "automation"],
+      "summary": "Today's reflection on the importance of automation in modern workflows",
+      "featured_image": "/assets/images/posts/23101501.jpg",
+      "secondary_image": "",
+      "path": "/2023/1017-industry-insight"
+    },
+    {
+      "title": "Project Update: Robotics Arm Progress",  
+      "date": "2023-10-16",
+      "tags": ["robotics", "industry-insight", "future-tech"],
+      "summary": "Exploring emerging trends in collaborative robotics and their potential impact",
+      "featured_image": "/assets/images/posts/23101701.jpg",
+      "secondary_image": "",
+      "path": "/2023/1017-industry-insight"
+    },
+    {
+      "title": "Industry Insight: The Future of Collaborative Robotics",  
+      "date": "2023-10-17",
+      "tags": ["robotics", "project-update"],
+      "summary": "Latest developments in the robotics arm control system",
+      "featured_image": "/assets/images/posts/23101601.jpg",
+      "secondary_image": "/assets/images/posts/23101602.jpg",
+      "path": "/2023/1017-industry-insight"
+    }
+  ]
+}

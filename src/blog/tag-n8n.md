@@ -1,6 +1,6 @@
 ---
-layout: layouts/base.njk
 title: "Tag: n8n"
+layout: layouts/base.njk
 permalink: /blog/tag-pages/n8n/
 ---
 

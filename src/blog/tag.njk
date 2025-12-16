@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 pagination:
   data: collections
   size: 1
@@ -7,8 +6,8 @@ pagination:
   filter:
     - all
     - posts
-    - post
   addAllPagesToCollections: true
+layout: layouts/base.njk
 permalink: /blog/tags/{{ tag }}/index.html
 ---
 
@@ -44,9 +43,7 @@ permalink: /blog/tags/{{ tag }}/index.html
             {% endif %}
             
             <footer>
-                <a href="{{ post.url }}" class="blog-post-preview">
-                    Read More
-                </a>
+                <a href="{{ post.url }}" class="btn btn-outline">Read More</a>
             </footer>
         </article>
         {% endfor %}

@@ -1,8 +1,8 @@
 ---
 title: "Creative Problem Solving"
-layout: "../_includes/layouts/base.njk"
 tags: ["innovation", "problem-solving"]
 description: "Creative approaches to complex challenges"
+layout: "../_includes/layouts/base.njk"
 ---
 
 # Creative Problem Solving

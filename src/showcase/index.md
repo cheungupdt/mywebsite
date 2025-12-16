@@ -1,5 +1,5 @@
 ---
-title: Technical Showcase
+title: Nucleus
 layout: layouts/showcase.njk
 permalink: /showcase/
 ---

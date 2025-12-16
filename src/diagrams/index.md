@@ -1,7 +1,7 @@
 ---
 title: Technical Diagrams & Charts
-layout: ../_includes/layouts/base.njk
 description: Interactive technical diagrams and data visualizations showcasing robotics systems and project insights
+layout: ../_includes/layouts/base.njk
 ---
 
 # Technical Diagrams & Charts

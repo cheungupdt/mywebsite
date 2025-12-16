@@ -1,8 +1,8 @@
 ---
 title: "Custom Nodes"
-layout: "../_includes/layouts/n8nchief-detail.njk"
-tags: ["n8nchief", "custom-nodes"]
+tags: ["n8nchief"]
 description: "Tailored solutions for unique requirements"
+layout: "../_includes/layouts/n8nchief-detail.njk"
 ---
 
 # Custom Nodes

@@ -1,8 +1,8 @@
 ---
 title: "Sensor Integration"
-layout: "../_includes/layouts/robotics-detail.njk"
 tags: ["robotics", "sensors"]
 description: "Multi-sensor fusion and data processing systems"
+layout: "../_includes/layouts/robotics-detail.njk"
 ---
 
 # Sensor Integration

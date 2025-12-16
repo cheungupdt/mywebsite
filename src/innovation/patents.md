@@ -1,8 +1,8 @@
 ---
 title: "Patents & Intellectual Property"
-layout: "../_includes/layouts/base.njk"
-tags: ["innovation", "patents"]
+tags: ["innovation"]
 description: "Intellectual property and innovation protection"
+layout: "../_includes/layouts/base.njk"
 ---
 
 # Patents & Intellectual Property

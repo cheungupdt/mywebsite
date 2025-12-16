@@ -1,3 +1,5 @@
+// .eleventy.js
+
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { minify } = require("html-minifier-terser");
 const CleanCSS = require("clean-css");
@@ -12,7 +14,6 @@ module.exports = function(eleventyConfig) {
   // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/sw.js");
-  
   eleventyConfig.addPassthroughCopy("favicon.ico");
   
   // Add minification for production only
@@ -32,7 +33,7 @@ module.exports = function(eleventyConfig) {
 
   // Add minification for production
   eleventyConfig.addPlugin(CleanCSS, {
-    output: "dist/assets/css/style.min.css", // Fixed path
+    output: "dist/assets/css/style.min.css",
     options: {
       level: 2
     }
@@ -53,7 +54,9 @@ module.exports = function(eleventyConfig) {
   
   // Add collections
   eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("src/_subsites/blog/posts/**/*.md");
+    return collection.getFilteredByGlob("src/_subsites/blog/posts/**/*.md")
+      .filter(item => item.data.date) // Only include items with a date
+      .sort((a, b) => b.date - a.date); // Sort by date, newest first  
   });
   
   eleventyConfig.addCollection("projects", function(collection) {
@@ -153,6 +156,11 @@ module.exports = function(eleventyConfig) {
                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
   });
+
+  // Add HTML date string filter
+  eleventyConfig.addFilter("htmlDateString", function(date) {
+    return new Date(date).toISOString().slice(0, 10);
+  });  
   
   // Add limit filter
   eleventyConfig.addFilter("limit", function(array, limit) {
@@ -236,7 +244,7 @@ module.exports = function(eleventyConfig) {
       includes: "_includes",
       data: "_data"
     },
-    templateFormats: ["md", "njk", "html","html"],
+    templateFormats: ["md", "njk", "html"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk"

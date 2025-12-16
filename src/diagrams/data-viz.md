@@ -1,7 +1,7 @@
 ---
 title: Data Visualizations
-layout: ../_includes/layouts/base.njk
 description: Data visualizations of robotics performance metrics and analysis
+layout: ../_includes/layouts/base.njk
 ---
 
 # Data Visualizations

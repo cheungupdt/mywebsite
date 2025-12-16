@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "Automation"
 description: "Posts about automation"
 pagination:
@@ -8,6 +7,7 @@ pagination:
   alias: posts
   filter:
     - "automation"
+layout: layouts/base.njk
 ---
 
 <section class="tag-header">

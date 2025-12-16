@@ -1,0 +1,112 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="blog-post">
+    <header class="post-header">
+        <h1>{{ title }}</h1>
+        <div class="blog-meta">
+            <time datetime="{{ date | htmlDateString }}">{{ date | date("MMMM DD, YYYY") }}</time>
+            {% if tags %}
+            <span class="tags">
+                {% for tag in tags %}
+                <a href="/blog/tags/{{ tag }}/" class="tag">#{{ tag }}</a>
+                {% endfor %}
+            </span>
+            {% endif %}
+        </div>
+    </header>
+    
+    <div class="post-content">
+        {% if featured_image %}
+        <figure class="featured-image">
+            <img src="{{ featured_image }}" alt="{{ title }}">
+        </figure>
+        {% endif %}
+        
+        {{ content }}
+        
+        {% if secondary_image %}
+        <figure class="secondary-image">
+            <img src="{{ secondary_image }}" alt="{{ title }}">
+        </figure>
+        {% endif %}
+    </div>
+</article>
+
+<style>
+.post-header {
+    text-align: center;
+    margin-bottom: var(--spacing-3xl);
+}
+
+.post-header h1 {
+    font-size: var(--font-size-4xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.blog-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.tags {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.tag {
+    background-color: var(--color-secondary-light);
+    color: var(--color-secondary-dark);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    text-decoration: none;
+    transition: background-color var(--transition-fast);
+}
+
+.tag:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.featured-image,
+.secondary-image {
+    margin: var(--spacing-xl) 0;
+}
+
+.featured-image img,
+.secondary-image img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+}
+
+.featured-image {
+    margin-top: 0;
+}
+
+.secondary-image {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .blog-meta {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+}
+</style>

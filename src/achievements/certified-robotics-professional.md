@@ -1,10 +1,10 @@
 ---
 title: Certified Robotics Professional
 date: 2023-04-15
+description: Advanced certification in robotics system design, implementation, and maintenance.
 organization: Robotics Institute of America
 icon: https://placehold.co/100x100/3366ff/ffffff?text=CRP
 url: https://example.com/certificate
-description: Advanced certification in robotics system design, implementation, and maintenance.
 layout: ../_includes/layouts/base.njk
 ---
 

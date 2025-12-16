@@ -2,7 +2,7 @@
   "title": "KCS Team",
   "description": "Professional multi-subdomain for KCS Team",
   "author": "KCS Team", 
-  "url": "https://kcsteam.org",
+  "url": "https://info.kcsteam.org",
   "email": "contact@kcsteam.org",
   "diagrams": {
     "theme": "dark",
@@ -11,10 +11,6 @@
     "responsive": true
   },
   "navigation": [
-    {
-      "name": "Home",
-      "url": "/"
-    },
     {
       "name": "Blog",
       "url": "/blog/"
@@ -32,16 +28,12 @@
       "url": "/leadership/"
     },
     {
-      "name": "Speaking",
-      "url": "/speaking/"
+      "name": "Legacy",
+      "url": "/legacy/"
     },
     {
-      "name": "Diagrams",
-      "url": "/diagrams/"
-    },
-    {
-      "name": "Showcase",
-      "url": "/showcase/"
+      "name": "Nucleus",
+      "url": "/nucleus/"
     },
     {
       "name": "Contact",

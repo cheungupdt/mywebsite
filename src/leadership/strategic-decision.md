@@ -1,8 +1,8 @@
 ---
 title: "Strategic Decisions"
-layout: "../_includes/layouts/leadership-detail.njk"
 tags: ["leadership", "strategy"]
 description: "Data-driven strategic leadership"
+layout: "../_includes/layouts/leadership-detail.njk"
 ---
 
 # Strategic Decisions

@@ -3,7 +3,10 @@ class FloatingChatbot {
     constructor() {
         this.isOpen = false;
         this.isTyping = false;
-        this.n8nWebhookUrl = 'https://your-n8n-instance.com/webhook/chatbot'; // Replace with your actual n8n webhook
+        this.lastActivity = Date.now();
+        this.idleTimeout = null;
+        this.idleDelay =55000; // 55 seconds
+        this.n8nWebhookUrl = 'https://n8nio.kcsteam.org/webhook/kcsteam-chatbot'; // Replace with your actual n8n webhook
         
         this.init();
     }
@@ -12,8 +15,38 @@ class FloatingChatbot {
         console.log('🔧 Floating Chatbot initializing...');
         this.setupEventListeners();
         this.loadInitialMessage();
+        this.startIdleMonitor();
     }
     
+    // Add this method to track user activity
+    trackActivity() {
+        this.lastActivity = Date.now();
+        // Reset idle timeout
+        if (this.idleTimeout) {
+            clearTimeout(this.idleTimeout);
+        }
+        this.idleTimeout = setTimeout(() => this.checkIdle(), this.idleDelay);
+    }
+    
+    // Check if user is idle
+    checkIdle() {
+        const idleTime = Date.now() - this.lastActivity;
+        if (idleTime >= this.idleDelay && this.isOpen && !this.isTyping) {
+            this.sendIdlePrompt();
+        }
+    }
+    
+    // Send idle prompt message
+    sendIdlePrompt() {
+        const promptMessage = "Ready to take your robotics and automation projects to the next level? Contact Kevin and KCSTEAM directly at +1 (555) 123-4567 or contact@kcsteam.org to start collaborating on innovative solutions that will transform your business.";
+        this.addMessage(promptMessage, 'bot');
+        this.trackActivity(); // Reset activity timer
+    }
+    
+    startIdleMonitor() {
+        this.idleTimeout = setTimeout(() => this.checkIdle(), this.idleDelay);
+    }
+     
     setupEventListeners() {
         const toggle = document.getElementById('chatbot-toggle');
         const close = document.getElementById('floating-chatbot-close');
@@ -58,12 +91,14 @@ class FloatingChatbot {
             });
         }
         
-        // Suggestion buttons
+        // Suggestion buttons - now they go through n8n
         suggestions.forEach(btn => {
             btn.addEventListener('click', () => {
-                const suggestion = btn.getAttribute('data-suggestion');
-                if (input) input.value = suggestion;
-                this.sendMessage();
+            const suggestion = btn.getAttribute('data-suggestion');
+            // Add the suggestion as a user message and send through n8n
+            this.addMessage(suggestion, 'user');
+            this.sendToN8N(suggestion);
+            this.trackActivity(); // Track activity for idle timer
             });
         });
         
@@ -94,7 +129,9 @@ class FloatingChatbot {
             chatbot.classList.remove('minimized');
             this.isOpen = true;
             
-            // Focus input after animation
+            // Track activity when chat opens
+            this.trackActivity();
+            
             setTimeout(() => {
                 if (input) input.focus();
             }, 300);
@@ -120,19 +157,20 @@ class FloatingChatbot {
         
         console.log('💬 Sending message:', message);
         
+        // Track user activity
+        this.trackActivity();
+        
         // Add user message
         this.addMessage(message, 'user');
         
         // Clear input
         if (input) input.value = '';
         
-        // Show typing indicator
-        this.showTyping();
-        
-        // Send to n8n webhook (replace with your actual implementation)
+        // Send to n8n
         this.sendToN8N(message);
     }
     
+    /*
     async sendToN8N(message) {
         try {
             // Simulate API call - replace with your actual n8n webhook
@@ -174,8 +212,58 @@ class FloatingChatbot {
         } else {
             return responses.default;
         }
+    }*/
+    async sendToN8N(message) {
+        try {
+            this.showTyping();
+            
+            console.log('📤 Sending to n8n:', message);
+            
+            // Add processing message after 3 seconds if still waiting
+            const processingTimeout = setTimeout(() => {
+            if (this.isTyping) {
+                this.addMessage("Processing your request...", 'bot');
+            }
+            }, 3000);
+            //https://n8nio.kcsteam.org/webhook-test/kcsteam-chatbot
+            const response = await fetch(this.n8nWebhookUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                message: message,
+                timestamp: new Date().toISOString(),
+                source: 'website-chatbot'
+            })
+            });
+            
+            // Clear the processing timeout
+            clearTimeout(processingTimeout);
+            
+            console.log('📥 Response status:', response.status);
+            
+            if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
+            // Parse the response
+            const data = await response.json();
+            console.log('📥 Parsed response:', data);
+            
+            const botMessage = data.message;
+            console.log('🤖 Bot message:', botMessage);
+            
+            this.hideTyping();
+            this.addMessage(botMessage, 'bot');
+            
+        } catch (error) {
+            console.error('❌ Error sending message to n8n:', error);
+            this.hideTyping();
+            this.addMessage("I'd love to tell you about KCSTEAM's robotics and automation expertise! What would you like to know?", 'bot');
+        }
     }
-    
+
     addMessage(text, sender) {
         const messagesContainer = document.getElementById('floating-messages');
         if (!messagesContainer) return;

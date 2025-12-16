@@ -23,6 +23,13 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
+  // NEW: Bypass the cache when running on localhost
+  if (event.request.url.startsWith(self.location.origin) && self.location.hostname === 'localhost') {
+    // If on localhost, always fetch from network
+    return fetch(event.request);
+  }
+
+  // EXISTING: Original caching logic for production
   event.respondWith(
     caches.match(event.request)
       .then(function(response) {

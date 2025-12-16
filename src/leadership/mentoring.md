@@ -1,8 +1,8 @@
 ---
 title: "Mentoring"
-layout: "../_includes/layouts/leadership-detail.njk"
 tags: ["leadership", "mentoring"]
 description: "Developing future leaders"
+layout: "../_includes/layouts/leadership-detail.njk"
 ---
 
 # Mentoring

@@ -1,8 +1,8 @@
 ---
 title: "My Robotics Journey: From Concept to Reality"
 date: 2024-01-14
-description: "Reflecting on my journey in robotics, from early concepts to real-world applications."
 tags: ["robotics", "journey", "reflection"]
+description: "Reflecting on my journey in robotics, from early concepts to real-world applications."
 layout: layouts/blog.njk
 permalink: /blog/robotics-journey/index.html
 ---

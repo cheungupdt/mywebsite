@@ -1,7 +1,7 @@
 ---
 title: Technical Flowcharts
-layout: ../_includes/layouts/base.njk
 description: Technical flowcharts demonstrating various processes and workflows
+layout: ../_includes/layouts/base.njk
 ---
 
 # Technical Flowcharts

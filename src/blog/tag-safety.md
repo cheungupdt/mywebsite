@@ -1,31 +1,33 @@
 ---
+title: "Tag: safety"
 layout: layouts/base.njk
-title: Blog
-description: "Daily insights and thoughts on robotics, automation, and innovation"
+permalink: /blog/tag-pages/safety/
 ---
 
-<section class="blog-header">
-    <h1>Blog</h1>
-    <p class="lead">Daily insights and thoughts on robotics, automation, and innovation</p>
+<section class="tag-header">
+    <h1>Tag: #safety</h1>
+    <p class="lead">
+        {% set tagPosts = collections.posts | where("data.tags", "safety") %}
+        {{ tagPosts.length }} 
+        post{% if tagPosts.length != 1 %}s{% endif %}
+        with this tag
+    </p>
 </section>
 
 <section class="blog-posts">
-    {% set postslist = collections.posts | reverse %}
-    {% set postslistCounter = postslist.length %}
-    {% if postslistCounter > 0 %}
-        {% for post in postslist %}
+    {% set tagPosts = collections.posts | where("data.tags", "safety") %}
+    {% if tagPosts.length > 0 %}
+        {% for post in tagPosts %}
         <article class="blog-post-preview">
             <header>
                 <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
                 <div class="blog-meta">
                     <time datetime="{{ post.date }}">{{ post.date | date("MMMM DD, YYYY") }}</time>
-                    {% if post.data.tags %}
                     <span class="tags">
-                        {% for tag in post.data.tags %}
-                        <a href="/blog/tags/{{ tag }}/" class="tag">#{{ tag }}</a>
+                        {% for postTag in post.data.tags %}
+                        <a href="/blog/tag-pages/{{ postTag }}/" class="tag">#{{ postTag }}</a>
                         {% endfor %}
                     </span>
-                    {% endif %}
                 </div>
             </header>
             
@@ -42,20 +44,25 @@ description: "Daily insights and thoughts on robotics, automation, and innovatio
         {% endfor %}
     {% else %}
     <div class="no-posts">
-        <p>No blog posts yet. Check back soon!</p>
+        <p>No posts found with this tag.</p>
     </div>
     {% endif %}
 </section>
 
+<nav class="tag-navigation">
+    <a href="/blog/tags/" class="btn btn-outline">? All Tags</a>
+</nav>
+
 <style>
-.blog-header {
+.tag-header {
     text-align: center;
     margin-bottom: var(--spacing-3xl);
 }
 
-.blog-header h1 {
+.tag-header h1 {
     font-size: var(--font-size-4xl);
     margin-bottom: var(--spacing-lg);
+    color: var(--color-accent);
 }
 
 .blog-posts {
@@ -131,6 +138,11 @@ description: "Daily insights and thoughts on robotics, automation, and innovatio
     text-align: center;
     padding: var(--spacing-3xl) 0;
     color: var(--color-secondary);
+}
+
+.tag-navigation {
+    text-align: center;
+    margin-top: var(--spacing-3xl);
 }
 
 @media (max-width: 768px) {

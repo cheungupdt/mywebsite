@@ -1,7 +1,7 @@
 ---
-layout: layouts/base.njk
 title: RSS Feed
 description: "Subscribe to our RSS feed for the latest updates"
+layout: layouts/base.njk
 ---
 
 <section class="rss-header">

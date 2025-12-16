@@ -1,8 +1,8 @@
 ---
 title: "Team Management"
-layout: "../_includes/layouts/leadership-detail.njk"
 tags: ["leadership", "team-management"]
 description: "Building and leading high-performing teams"
+layout: "../_includes/layouts/leadership-detail.njk"
 ---
 
 # Team Management

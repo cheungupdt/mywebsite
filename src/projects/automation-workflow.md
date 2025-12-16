@@ -1,11 +1,11 @@
 ---
 title: Project 2 - Automation Workflow System
+date: 2023-08-20
+tags: ["Automation", "n8n", "Business Process", "Workflow"]
 description: Comprehensive workflow automation system using n8n for business process optimization
 image: https://placehold.co/600x400/4ecdc4/ffffff?text=Project+2
-tags: ["Automation", "n8n", "Business Process", "Workflow"]
-date: 2023-08-20
-url: /projects/automation-workflow/
 layout: ../_includes/layouts/project-detail.njk
+url: /projects/automation-workflow/
 ---
 
 # Project 2 - Automation Workflow System

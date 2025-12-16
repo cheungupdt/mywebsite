@@ -1,8 +1,8 @@
 ---
 title: "Industry Applications"
-layout: "layouts/robotics-detail"
 tags: ["robotics", "applications"]
 description: "Real-world implementations and case studies"
+layout: "layouts/robotics-detail"
 permalink: /robotics/industry-applications/
 ---
 

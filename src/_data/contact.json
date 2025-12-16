@@ -28,10 +28,10 @@
       "tags": ["speaking", "workshops", "conferences"]
     },
     {
-      "title": "Technical Writing",
-      "description": "Collaborate on technical documentation and content creation",
-      "icon": "writing",
-      "tags": ["writing", "documentation", "content"]
+      "title": "Technical Development",
+      "description": "Collaborate on technical content creation",
+      "icon": "Technical",
+      "tags": ["technical", "documentation", "content"]
     }
   ],
   "formFields": [

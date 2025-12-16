@@ -1,7 +1,7 @@
 ---
 title: Projects
-layout: ../_includes/layouts/base.njk
 description: Showcase of my projects and work
+layout: ../_includes/layouts/base.njk
 ---
 
 # Projects

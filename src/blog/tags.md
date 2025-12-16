@@ -1,7 +1,7 @@
 ---
-layout: layouts/base.njk
 title: Tags
 description: "Browse all blog posts by tag"
+layout: layouts/base.njk
 permalink: /blog/tags/
 ---
 

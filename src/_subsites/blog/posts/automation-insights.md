@@ -1,8 +1,8 @@
 ---
 title: "Automation Insights: Streamlining Workflows with n8n"
 date: 2024-01-13
-description: "How I'm using n8n to create powerful automation workflows that save time and increase efficiency."
 tags: ["automation", "n8n", "workflows"]
+description: "How I'm using n8n to create powerful automation workflows that save time and increase efficiency."
 layout: layouts/blog.njk
 permalink: /blog/automation-insights/index.html
 ---

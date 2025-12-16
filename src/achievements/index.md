@@ -1,7 +1,7 @@
 ---
 title: Achievements
-layout: ../_includes/layouts/base.njk
 description: Professional achievements and certifications
+layout: ../_includes/layouts/base.njk
 ---
 
 # Achievements

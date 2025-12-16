@@ -1,11 +1,11 @@
 ---
 title: Project 3 - IoT Monitoring System
+date: 2023-05-10
+tags: ["IoT", "Monitoring", "Data Visualization", "Alerts"]
 description: Real-time monitoring system for industrial IoT devices with data visualization and alerting
 image: https://placehold.co/600x400/45b7d1/ffffff?text=Project+3
-tags: ["IoT", "Monitoring", "Data Visualization", "Alerts"]
-date: 2023-05-10
-url: /projects/iot-monitoring-system/
 layout: ../_includes/layouts/project-detail.njk
+url: /projects/iot-monitoring-system/
 ---
 
 # Project 3 - IoT Monitoring System

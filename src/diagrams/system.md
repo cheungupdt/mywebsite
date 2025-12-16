@@ -1,7 +1,7 @@
 ---
 title: System Diagrams
-layout: ../_includes/layouts/base.njk
 description: Detailed system architecture diagrams for various robotics components
+layout: ../_includes/layouts/base.njk
 ---
 
 # System Diagrams

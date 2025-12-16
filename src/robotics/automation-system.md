@@ -1,8 +1,8 @@
 ---
 title: "Automation Systems"
-layout: "layouts/robotics-detail"
 tags: ["robotics", "automation"]
 description: "Comprehensive automation solutions for manufacturing processes"
+layout: "layouts/robotics-detail"
 permalink: /robotics/automation-systems/
 ---
 

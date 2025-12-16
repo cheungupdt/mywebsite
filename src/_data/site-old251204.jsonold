@@ -1,0 +1,56 @@
+{
+  "title": "KCS Team",
+  "description": "Professional multi-subdomain for KCS Team",
+  "author": "KCS Team", 
+  "url": "https://info.kcsteam.org",
+  "email": "contact@kcsteam.org",
+  "diagrams": {
+    "theme": "dark",
+    "defaultChartType": "bar",
+    "animationDuration": 1000,
+    "responsive": true
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "name": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "name": "Achievements",
+      "url": "/achievements/"
+    },
+    {
+      "name": "Leadership",
+      "url": "/leadership/"
+    },
+   // {
+   //   "name": "Legacy",
+   //   "url": "/speaking/"
+   // },
+    {
+      "name": "Diagrams",
+      "url": "/diagrams/"
+    },
+    {
+      "name": "Nucleus",
+      "url": "/showcase/"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/kcsteam",
+    "github": "https://github.com/kcsteam",
+    "twitter": "https://twitter.com/kcsteam"
+  }
+}

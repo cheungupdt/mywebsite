@@ -1,25 +1,25 @@
 ---
-title: Automation Excellence Award
-date: 2023-06-20
-organization: International Automation Association
+title: Best VendorAward
+date: 2019-01-01
+organization: Disney
 icon: https://placehold.co/100x100/4ecdc4/ffffff?text=AEA
-description: Recognized for outstanding contributions to industrial automation solutions.
+description: Recognized for being an outstanding vendor to Disney Theme Parks
 layout: ../_includes/layouts/base.njk
 ---
 
-# Automation Excellence Award
+# Best Vendor Award
 
 ## Overview
 
-Received the Automation Excellence Award for developing an innovative workflow automation system that reduced operational costs by 40%.
+Help the company to manage projects and leads to being the top vendor in the Disney Theme Parks.
 
 ## Project Highlights
 
-- Designed and implemented a comprehensive automation platform
+- Designed and implemented various Parade Float
 - Integrated multiple legacy systems
-- Achieved 99.8% uptime in production
-- Reduced manual intervention by 85%
+- Bring the artistic drawings and vision to LIVE
+- Meeting and exceed required safety compliances.
 
 ## Impact
 
-This award recognizes the significant impact of automation solutions on operational efficiency and cost reduction.
+This award recognizes the significant impact of technical solutions on artistic reality and operational efficiency.

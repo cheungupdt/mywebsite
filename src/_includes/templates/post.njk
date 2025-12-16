@@ -1,0 +1,19 @@
+---
+title: "{{ title }}"
+date: "{{ date }}"
+tags: [{{ tags }}]
+description: "{{ description }}"
+featured_image: "{{ featured_image }}"
+secondary_image: "{{ secondary_image }}"
+type: "post"
+---
+
+{% if featured_image %}
+![{{ title }}]({{ featured_image }})
+{% endif %}
+
+{{ content }}
+
+{% if secondary_image %}
+![{{ title }}]({{ secondary_image }})
+{% endif %}

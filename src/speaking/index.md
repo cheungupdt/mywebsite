@@ -1,7 +1,8 @@
 ---
-title: Speaking Engagements
-layout: ../_includes/layouts/base.njk
+title: Legacy
 description: Conference presentations and speaking engagements
+layout: layouts/base.njk
+permalink: /legacy/
 ---
 
 # Speaking Engagements

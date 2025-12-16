@@ -1,6 +1,6 @@
 ---
-layout: layouts/base.njk
 title: "Tag: reflection"
+layout: layouts/base.njk
 permalink: /blog/tag-pages/reflection/
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Case Studies"
-layout: "../_includes/layouts/n8nchief-detail.njk"
 tags: ["n8nchief", "case-studies"]
 description: "Real-world automation success stories"
+layout: "../_includes/layouts/n8nchief-detail.njk"
 ---
 
 # Case Studies

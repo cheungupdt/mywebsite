@@ -1,6 +1,6 @@
 ---
-layout: layouts/base.njk
 title: "Tag: welcome"
+layout: layouts/base.njk
 permalink: /blog/tag-pages/welcome/
 ---
 
