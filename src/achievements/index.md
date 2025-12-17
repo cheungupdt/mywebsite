@@ -1,12 +1,12 @@
 ---
 title: Achievements
-description: Professional achievements and certifications
+description: Professional achievements and recognitions
 layout: ../_includes/layouts/base.njk
 ---
 
 # Achievements
 
-Welcome to my achievements showcase. Here you'll find a collection of my professional accomplishments, certifications, and recognitions across various domains.
+Welcome to my achievements showcase. Here you'll find a collection of my professional accomplishments, and recognitions across various domains.
 
 ## Featured Achievements
 

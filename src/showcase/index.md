@@ -1,11 +1,11 @@
 ---
 title: Nucleus
 layout: layouts/showcase.njk
-permalink: /showcase/
+permalink: /nucleus/
 ---
 
 <div class="showcase-intro">
-  <p>Welcome to my technical showcase, where I demonstrate various interactive elements, animations, and visual effects that highlight my technical capabilities. Explore the different examples below to see how I combine technical expertise with creative design.</p>
+  <p>Welcome to my Nucleus, my technical laboratory, where I demonstrate various work in progress interactive elements, animations, and visual effects that maybe incorporated into my future projects. Explore the different examples below to see how I combine technical with creative possibilities.</p>
 </div>
 
 <div class="showcase-grid">
