@@ -1,6 +1,6 @@
 ---
 title: "Workflow Design"
-tags: ["n8nchief", "workflows"]
+tags: ["N8N", "Workflows"]
 description: "Advanced workflow architecture and design patterns"
 layout: "../_includes/layouts/n8nchief-detail.njk"
 ---

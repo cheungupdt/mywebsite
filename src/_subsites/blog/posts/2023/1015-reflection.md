@@ -1,7 +1,7 @@
 ---
 title: "Reflection: Automation Insights"
 date: "2023-10-15"
-tags: ["reflection", "automation"]
+tags: ["Reflection", "Automation"]
 description: "Today's reflection on the importance of automation in modern workflows"
 featured_image: "/assets/images/posts/23101501.jpg"
 secondary_image: ""

@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My Blog"
 date: 2024-01-15
-tags: ["welcome", "introduction"]
+tags: ["Welcome", "Introduction"]
 description: "Welcome to my new blog where I share daily insights on robotics, automation, and innovation."
 layout: layouts/blog.njk
 permalink: /blog/welcome/index.html

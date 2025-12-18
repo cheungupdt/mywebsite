@@ -1,7 +1,7 @@
 ---
 title: "Industry Insight: The Future of Collaborative Robotics"
 date: "2023-10-17"
-tags: ["robotics", "industry-insight", "future-tech"]
+tags: ["Robotics", "Industry-Insight"]
 description: "Exploring emerging trends in collaborative robotics and their potential impact"
 featured_image: "/assets/images/posts/23101701.jpg"
 secondary_image: ""

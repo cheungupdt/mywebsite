@@ -16,6 +16,12 @@
       "tags": ["voice", "ai", "synthesis"]
     },
     {
+      "title": "AI Assistant Chatbot",
+      "description": "Intelligent chatbot powered by n8n workflows",
+      "type": "chatbot",
+      "tags": ["ai", "chatbot", "automation"]
+    },
+    {
       "title": "Parallax Scrolling Effects",
       "description": "Smooth parallax scrolling with layered elements",
       "type": "parallax",

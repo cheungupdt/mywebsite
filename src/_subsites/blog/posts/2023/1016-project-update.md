@@ -1,7 +1,7 @@
 ---
 title: "Project Update: Robotics Arm Progress"
 date: "2023-10-16"
-tags: ["robotics", "project-update"]
+tags: ["Robotics", "Project-Update"]
 description: "Latest developments in the robotics arm control system"
 featured_image: "/assets/images/posts/23101601.jpg"
 secondary_image: "/assets/images/posts/23101602.jpg"

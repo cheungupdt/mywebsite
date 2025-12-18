@@ -1,6 +1,6 @@
 ---
 title: "Integration Patterns"
-tags: ["n8nchief", "integration"]
+tags: ["N8N", "Integration"]
 description: "Proven patterns for system integration"
 layout: "layouts/n8nchief-detail"
 permalink: /n8nchief/integration-patterns/

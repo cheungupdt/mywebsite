@@ -1,7 +1,7 @@
 ---
 title: Project 1 - Robotic Arm Controller
 date: 2023-06-15
-tags: ["Robotics", "Control Systems", "Industrial Automation"]
+tags: ["Robotics", "Control Systems"]
 description: Advanced control system for industrial robotic arms with precision positioning and real-time feedback
 image: https://placehold.co/600x400/ff6b6b/ffffff?text=Project+1
 layout: ../_includes/layouts/project-detail.njk

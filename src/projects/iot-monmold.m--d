@@ -3,7 +3,7 @@ title: Project 3 - IoT Monitoring System
 date: 2024-12-18
 tags: ["IoT", "Data Visualization"]
 description: monitoring system for IoT devices with data visualization
-image: "/assets/images/posts/24121801.jpg" # https://placehold.co/600x400/45b7d1/ffffff?text=Project+3 
+image: "/assets/images/posts/23051001.jpg" # https://placehold.co/600x400/45b7d1/ffffff?text=Project+3 
 layout: ../_includes/layouts/project-detail.njk
 url: /projects/iot-monitoring-system/
 ---
@@ -23,11 +23,11 @@ Using Data Visualization, IoT monitoring system for various Cameras, providing r
 ## Gallery
 
 <div class="image-gallery">
-  <a href="/assets/images/posts/24121802.jpg" data-lightbox="iot" data-title="IoT Dashboard">
-    <img src="/assets/images/posts/24121802.jpg" alt="Security Camera">
+  <a href="https://placehold.co/800x600/45b7d1/ffffff?text=IoT+Dashboard" data-lightbox="iot" data-title="IoT Dashboard">
+    <img src="https://placehold.co/200x150/45b7d1/ffffff?text=Dashboard" alt="IoT Dashboard">
   </a>
-  <a href="/assets/images/posts/24121803.jpg"  data-lightbox="iot" data-title="Device Configuration">
-    <img src="/assets/images/posts/24121803.jpg"  alt="Hobby Camera">
+  <a href="https://placehold.co/800x600/45b7d1/ffffff?text=Device+Configuration" data-lightbox="iot" data-title="Device Configuration">
+    <img src="https://placehold.co/200x150/45b7d1/ffffff?text=Configuration" alt="Device Configuration">
   </a>
 </div>
 

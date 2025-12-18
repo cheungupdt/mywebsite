@@ -1,6 +1,6 @@
 ---
 title: "Change Management"
-tags: ["leadership", "change-management"]
+tags: ["Leadership", "Change-Management"]
 description: "Leading organizational transformation"
 layout: "../_includes/layouts/leadership-detail.njk"
 ---

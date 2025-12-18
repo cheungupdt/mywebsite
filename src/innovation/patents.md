@@ -1,6 +1,6 @@
 ---
 title: "Patents & Intellectual Property"
-tags: ["innovation"]
+tags: ["Innovation"]
 description: "Intellectual property and innovation protection"
 layout: "../_includes/layouts/base.njk"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Future Vision"
-tags: ["innovation", "future-vision"]
+tags: ["Innovation"]
 description: "Emerging technology and future trends"
 layout: "../_includes/layouts/base.njk"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "n8n Workflow Expertise"
-tags: ["n8nchief"]
+tags: ["N8N"]
 description: "Enterprise workflow automation with n8n - showcasing expertise in complex workflow design, integration patterns, and custom node development."
 layout: "layouts/base.njk"
 ---

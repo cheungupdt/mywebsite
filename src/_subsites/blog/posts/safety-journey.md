@@ -1,7 +1,7 @@
 ---
 title: "My Safety Journey: From Concept to Reality"
 date: 2025-05-12
-tags: ["Safety", "journey", "reflection"]
+tags: ["Safety", "Journey", "Reflection"]
 description: "Reflecting on my journey in Safety, what it means."
 layout: layouts/blog.njk
 permalink: /blog/safety-journey/index.html

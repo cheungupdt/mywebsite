@@ -1,7 +1,7 @@
 ---
 title: Project 4 - Data Analysis Platform
 date: 2023-07-25
-tags: ["Data Analysis", "Machine Learning", "Cloud", "Big Data"]
+tags: ["Data Analysis", "Cloud Computing", "Big Data"]
 description: Cloud-based data analysis platform for processing large datasets with machine learning capabilities
 image: https://placehold.co/600x400/f7b731/ffffff?text=Project+4
 layout: ../_includes/layouts/project-detail.njk

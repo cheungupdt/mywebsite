@@ -1,6 +1,6 @@
 ---
 title: "Robotic Arm Design"
-tags: ["robotics", "design"]
+tags: ["Robotics", "Design"]
 description: "Custom robotic arm design and optimization"
 layout: "../_includes/layouts/robotics-detail.njk"
 ---

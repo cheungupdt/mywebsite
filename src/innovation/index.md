@@ -1,6 +1,6 @@
 ---
 title: "Innovation Portfolio"
-tags: ["innovation"]
+tags: ["Innovation"]
 description: "Cutting-edge solutions and creative problem-solving - showcasing innovation methodologies, patents, and future technology vision."
 layout: "layouts/base"
 ---

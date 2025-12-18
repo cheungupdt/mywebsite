@@ -1,6 +1,7 @@
 ---
 title: RSS Feed
 description: "Subscribe to our RSS feed for the latest updates"
+link: http://localhost:8080/feed.xml
 layout: layouts/base.njk
 ---
 
@@ -14,9 +15,9 @@ layout: layouts/base.njk
         <h2>What is RSS?</h2>
         <p>RSS (Really Simple Syndication) is a web feed that allows you to access updates to online content in a standardized format. You can subscribe to our RSS feed using a feed reader to get the latest blog posts without having to visit our website.</p>
         
-        <h2>How to Subscribe</h2>
+        <h2>How to Subscribe</h2> <h1>In Progress... Coming Soon!</h1>
         <ol>
-            <li>Copy the RSS feed URL: <code>http://localhost:8080/feed.xml</code></li>
+            <li>Copy the RSS feed URL: <code> </code></li>
             <li>Paste it into your favorite RSS reader (like Feedly, Inoreader, or Feedbin)</li>
             <li>Enjoy automatic updates whenever we publish new content!</li>
         </ol>
@@ -28,7 +29,7 @@ layout: layouts/base.njk
                     <path d="M4 4.5A1.5 1.5 0 0 1 5.5 3v1.5a10.5 10.5 0 0 1 10.5 10.5v1.5a1.5 1.5 0 0 1-3 0V15A7.5 7.5 0 0 0 5.5 7.5V6A1.5 1.5 0 0 1 4 4.5Z" fill="currentColor"/>
                     <circle cx="6" cy="18" r="1.5" fill="currentColor"/>
                 </svg>
-                Subscribe to RSS Feed
+                Come Back Later to Subscribe to My RSS Feed
             </a>
         </div>
     </div>

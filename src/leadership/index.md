@@ -1,6 +1,6 @@
 ---
 title: "Leadership Experience"
-tags: ["leadership"]
+tags: ["Leadership"]
 description: "Strategic leadership and team development - showcasing experience in guiding teams, driving innovation, and achieving organizational excellence."
 layout: "layouts/base"
 ---

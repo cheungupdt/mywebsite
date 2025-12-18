@@ -1,6 +1,6 @@
 ---
 title: "Robotics Expertise"
-tags: ["robotics"]
+tags: ["Robotics"]
 description: "Advanced robotics and automation solutions showcasing technical expertise in industrial robotics, control systems, and automation."
 layout: "layouts/base"
 ---
