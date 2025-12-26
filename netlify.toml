@@ -37,8 +37,8 @@
   force = true
 
 [[redirects]]
-  from = "/speaking/*"
-  to = "/speaking/"
+  from = "/legacy/*"
+  to = "/legacy/"
   status = 301
   force = true
 

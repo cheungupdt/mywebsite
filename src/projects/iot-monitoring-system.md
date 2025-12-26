@@ -23,11 +23,11 @@ Using Data Visualization, IoT monitoring system for various Cameras, providing r
 ## Gallery
 
 <div class="image-gallery">
-  <a href="/assets/images/posts/24121802.jpg" data-lightbox="iot" data-title="IoT Dashboard">
-    <img src="/assets/images/posts/24121802.jpg" alt="Security Camera">
+  <a href="/assets/images/posts/24121802.jpg" data-lightbox="iot" data-title="Security Cameras">
+    <img src="/assets/images/posts/24121802.jpg" alt="Security Cameras">
   </a>
-  <a href="/assets/images/posts/24121803.jpg"  data-lightbox="iot" data-title="Device Configuration">
-    <img src="/assets/images/posts/24121803.jpg"  alt="Hobby Camera">
+  <a href="/assets/images/posts/24121803.jpg"  data-lightbox="iot" data-title="Hobby Cameras">
+    <img src="/assets/images/posts/24121803.jpg"  alt="Hobby Cameras">
   </a>
 </div>
 

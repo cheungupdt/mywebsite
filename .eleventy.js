@@ -67,8 +67,8 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("src/achievements/**/*.md");
   });
   
-  eleventyConfig.addCollection("speaking", function(collection) {
-    return collection.getFilteredByGlob("src/speaking/**/*.md");
+  eleventyConfig.addCollection("legacy", function(collection) {
+    return collection.getFilteredByGlob("src/legacy/**/*.md");
   });
   
   eleventyConfig.addCollection("robotics", function(collection) {

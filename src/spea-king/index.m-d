@@ -5,11 +5,11 @@ layout: layouts/base.njk
 permalink: /legacy/
 ---
 
-# Speaking Engagements
+# Public Engagements
 
-Welcome to my speaking engagements showcase. Here you'll find a collection of my conference presentations, workshops, and public speaking events.
+Welcome to various public engagements display. Here you'll find some of my presentations, workshops, and public demo events.
 
-## Featured Speaking Engagements
+## Featured Public Engagements
 
 <div class="speaking-grid">
   {% for engagement in collections.speaking | reverse %}

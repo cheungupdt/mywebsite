@@ -9,7 +9,7 @@ layout: "../_includes/layouts/leadership-detail.njk"
 
 ## Overview
 
-Effective team management is the cornerstone of organizational success. My approach focuses on creating environments where talented individuals can collaborate effectively, innovate freely, and achieve extraordinary results together.
+Effective team management is the cornerstone of organizational success. My approach focuses on creating environments my teammates can collaborate effectively to achieve results together.
 
 ## Team Building Strategies
 
@@ -22,20 +22,26 @@ Effective team management is the cornerstone of organizational success. My appro
 ### 2. Onboarding Excellence
 ```mermaid
 graph TD
-    A[Offer Accepted] --> B[Pre-boarding]
-    B --> C[First Day Orientation]
-    C --> D[30-Day Plan]
-    D --> E[90-Day Integration]
-    E --> F[Full Team Member]
+    A[Offer Accepted] -->B[Pre-boarding]
+    B -->C[First Day Orientation]
+    C -->D[30-Day Plan]
+    D -->E[90-Day Integration]
+    E -->F[Full Team Member]
     
-    B --> B1[Equipment Setup]
-    B --> B2[Documentation Access]
-    C --> C1[Team Introductions]
-    C --> C2[Culture Training]
-    D --> D1[First Project]
-    D --> D2[Buddy System]
-    E --> E1[Performance Review]
-    E --> E2[Goal Setting]
+    B -->B1[Equipment Setup]
+    B -->B2[Documentation Access]
+    C -->C1[Team Introductions]
+    C -->C2[Culture Training]
+    D -->D1[First Project]
+    D -->D2[Resource System]
+    D -->D3[Close Monitoring and Feedback]
+    E -->E1[Performance Review]
+    E -->E2[Goal Setting]
+    F -->F1[Ongoing Development]
+    F -->F2[Career Path Planning] 
+    F -->F3[Regular Check-ins]
+    F -->F4[Team Building Activities] 
+    F -->F5[Continuous Learning Opportunities]
 ```
 
 ### 3. Team Structure Optimization

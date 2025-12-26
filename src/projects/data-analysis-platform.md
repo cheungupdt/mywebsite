@@ -1,25 +1,24 @@
 ---
-title: Project 4 - Data Analysis Platform
-date: 2023-07-25
+title: Project 1 - Data Analysis Platform
+date: 2025-01-10
 tags: ["Data Analysis", "Cloud Computing", "Big Data"]
 description: Cloud-based data analysis platform for processing large datasets with machine learning capabilities
-image: https://placehold.co/600x400/f7b731/ffffff?text=Project+4
+image: https://placehold.co/600x400/f7b731/ffffff?text=Project+1
 layout: ../_includes/layouts/project-detail.njk
 url: /projects/data-analysis-platform/
 ---
 
-# Project 4 - Data Analysis Platform
+# Project 1 - Data Analysis Platform
 
 ## Overview
 
-Built a cloud-based data analysis platform capable of processing large datasets with integrated machine learning capabilities for predictive analytics.
+For my Robot with vision project. As i know in the beginning my VPS couldn't handle the processing power. I thought of trying out the Google Cloud Platform and Oracle Cloud. As Google has a lot of tools for me to tryout, where as Oracle has a nice free tier capability. Boy I was wrong, i end up setting my server to handle this. This is a much better solution to my problem 
 
 ## Technical Details
 
-- **Backend**: Python with Django framework
-- **Cloud**: AWS infrastructure with auto-scaling
-- **ML Framework**: TensorFlow for predictive models
-- **Data Processing**: Apache Spark for distributed processing
+- **Cloud**: Google Cloud Platform and Oracle Cloud Infrastructure
+- **ML Framework**: Handled by Compreface
+- **Data Processing**: Compreface
 
 ## Gallery
 
@@ -34,6 +33,5 @@ Built a cloud-based data analysis platform capable of processing large datasets 
 
 ## Results
 
-- Processed 10TB+ of data daily
-- Improved prediction accuracy by 35%
-- Reduced processing time by 60%
+- Processed up to 20k photos daily
+- Current Progress: Increase from 20% accuracy to 90%+ accuracy in facial recognition

@@ -7,7 +7,7 @@ layout: "layouts/base"
 
 # Leadership Experience
 
-Leadership is about empowering teams to achieve their full potential while navigating complex challenges and driving meaningful change. My approach combines strategic vision with practical execution, fostering environments where innovation thrives and people excel.
+Leadership is about empowering my teammates to achieve their full potential while navigating complex challenges and driving meaningful change. It's always a balancing act between intend from upper management and team's motivation and ability. My approach combines strategic vision with practical execution, developing environments where innovation thrives and people excel while cascading needed messages back to management. 
 
 ## Leadership Philosophy
 
@@ -19,9 +19,8 @@ Leadership is about empowering teams to achieve their full potential while navig
 - **Growth**: Continuous learning and development
 
 ### Leadership Style
-- **Transformational**: Inspiring and motivating teams
-- **Servant**: Supporting team needs and removing obstacles
 - **Situational**: Adapting approach to context and needs
+- **Transformational**: Inspiring and motivating teams
 - **Coaching**: Developing talent and capabilities
 
 ## Featured Areas
@@ -90,35 +89,28 @@ Leadership is about empowering teams to achieve their full potential while navig
 
 ## Leadership Metrics
 
-- **Teams Led**: 15+
-- **Team Members Managed**: 200+
-- **Projects Delivered**: 50+
-- **Mentees Promoted**: 25+
-- **Change Initiatives**: 10+
+- **Teams Led**: 3+
+- **Team Members Trained**: 50+
+- **Trained co-workers**: 200+
+- **Projects Delivered**: 85+
+- **Mentees Promoted**
 
-## Certifications & Training
-
-<div class="certifications">
-  <div class="cert-item">
-    <h4>AI Agent Certification</h4>
-    <p>Leadership in AI-driven organizations</p>
-  </div>
-  <div class="cert-item">
-    <h4>Professional Engineer (NCESS)</h4>
-    <p>Technical leadership credentials</p>
-  </div>
-</div>
 
 ## Testimonials
 
 <div class="testimonials">
   <blockquote>
-    "Transformed our team culture and doubled our productivity in 6 months."
-    <cite>- VP Engineering, Tech Corp</cite>
+    "The more we work, the more I'm impressed with your knowledge and ability!"
+    <cite>- Engineering Manager, Bloom Energy</cite>
   </blockquote>
   
   <blockquote>
-    "Best mentor I've had - genuinely invested in my growth and success."
-    <cite>- Senior Developer, StartupXYZ</cite>
+    "Your team's work and documentation has landed us on many big projects."
+    <cite>- Founder, Artech Design and Production</cite>
+  </blockquote>
+    
+  <blockquote>
+    "You have helped us on many projects, you are very easy to work with."
+    <cite>- Senior Technical Director, Hong Kong Disneyland Resort</cite>
   </blockquote>
 </div>

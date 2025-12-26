@@ -1,5 +1,5 @@
 ---
-title: Project 1 - Robotic Arm Controller
+title: Project 4 - Robotic Arm Controller
 date: 2023-06-15
 tags: ["Robotics", "Control Systems"]
 description: Advanced control system for industrial robotic arms with precision positioning and real-time feedback
@@ -8,7 +8,7 @@ layout: ../_includes/layouts/project-detail.njk
 url: /projects/robotic-arm-controller/
 ---
 
-# Project 1 - Robotic Arm Controller
+# Project 4 - Robotic Arm Controller
 
 ## Overview
 

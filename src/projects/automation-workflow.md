@@ -12,7 +12,7 @@ url: /projects/automation-workflow/
 
 ## Overview
 
-Developed a workflow automation system using n8n to streamline business processes and improve  efficiency.
+Developed a workflow automation system using n8n to streamline business processes and improve efficiency.
 
 ## Technical Details
 
