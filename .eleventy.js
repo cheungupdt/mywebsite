@@ -91,8 +91,8 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("src/contact/**/*.md");
   });
   
-  eleventyConfig.addCollection("showcase", function(collection) {
-    return collection.getFilteredByGlob("src/showcase/**/*.md");
+  eleventyConfig.addCollection("nucleus", function(collection) {
+    return collection.getFilteredByGlob("src/nucleus/**/*.md");
   });
   
   // Add tag collection

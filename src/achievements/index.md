@@ -28,7 +28,7 @@ Welcome to my achievements showcase. Here you'll find a collection of my profess
     <p>Leadership in AI-driven organizations</p>
   </div>
   <div class="cert-item">
-    <h4>Professional Engineering Exmain(NCESS)</h4>
+    <h4>Professional Engineering Exam(NCESS)</h4>
     <p>Passed Professional Engineering in Mechanical Design Discipline</p>
   </div>
 </div>

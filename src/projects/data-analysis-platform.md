@@ -8,7 +8,6 @@ layout: ../_includes/layouts/project-detail.njk
 url: /projects/data-analysis-platform/
 ---
 
-# Project 1 - Data Analysis Platform
 
 ## Overview
 

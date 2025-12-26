@@ -3,12 +3,10 @@ title: Project 3 - IoT Monitoring System
 date: 2024-12-18
 tags: ["IoT", "Data Visualization"]
 description: monitoring system for IoT devices with data visualization
-image: "/assets/images/posts/24121801.jpg" # https://placehold.co/600x400/45b7d1/ffffff?text=Project+3 
+image: "/assets/images/posts/24122601.jpg" # https://placehold.co/600x400/45b7d1/ffffff?text=Project+3 
 layout: ../_includes/layouts/project-detail.njk
 url: /projects/iot-monitoring-system/
 ---
-
-# Project 3 - IoT Monitoring System
 
 ## Overview
 
@@ -23,11 +21,11 @@ Using Data Visualization, IoT monitoring system for various Cameras, providing r
 ## Gallery
 
 <div class="image-gallery">
-  <a href="/assets/images/posts/24121802.jpg" data-lightbox="iot" data-title="Security Cameras">
-    <img src="/assets/images/posts/24121802.jpg" alt="Security Cameras">
+  <a href="/assets/images/posts/24122602.jpg" data-lightbox="iot" data-title="Security Cameras">
+    <img src="/assets/images/posts/24122602.jpg" alt="Security Cameras">
   </a>
-  <a href="/assets/images/posts/24121803.jpg"  data-lightbox="iot" data-title="Hobby Cameras">
-    <img src="/assets/images/posts/24121803.jpg"  alt="Hobby Cameras">
+  <a href="/assets/images/posts/24122603.jpg"  data-lightbox="iot" data-title="Hobby Cameras">
+    <img src="/assets/images/posts/24122603.jpg"  alt="Hobby Cameras">
   </a>
 </div>
 

@@ -1,17 +1,18 @@
-// Initialize Mermaid and Charts
+// diagrams.js - Initialize Mermaid and Charts
+
 document.addEventListener('DOMContentLoaded', function() {
   // Initialize Mermaid
   if (typeof mermaid !== 'undefined') {
     mermaid.initialize({
-      startOnLoad: false, // We'll manually initialize to avoid conflicts
+      startOnLoad: true,
       theme: document.documentElement.classList.contains('dark') ? 'dark' : 'default',
       themeVariables: {
-        primaryColor: '#3498db', // Updated to match your color scheme
-        primaryTextColor: '#2c3e50', // Updated to match your color scheme
-        primaryBorderColor: '#3498db', // Updated to match your color scheme
-        lineColor: '#95a5a6', // Updated to match your color scheme
-        secondaryColor: '#ecf0f1', // Updated to match your color scheme
-        tertiaryColor: '#f8f9f8' // Updated to match your color scheme
+        primaryColor: '#3498db',
+        primaryTextColor: '#2c3e50',
+        primaryBorderColor: '#3498db',
+        lineColor: '#95a5a6',
+        secondaryColor: '#ecf0f1',
+        tertiaryColor: '#f8f9f8'
       },
       flowchart: {
         useMaxWidth: true,
@@ -20,19 +21,29 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Manually render all mermaid diagrams
+    // Initialize Mermaid on code blocks with language-mermaid class
     setTimeout(() => {
-      mermaid.run();
+      const mermaidCodeBlocks = document.querySelectorAll('pre code.language-mermaid');
+      mermaidCodeBlocks.forEach(function(element) {
+        // Create a div wrapper for Mermaid
+        const mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = element.textContent;
+        
+        // Replace the code block with the Mermaid div
+        element.parentNode.replaceChild(mermaidDiv, element);
+        
+        // Initialize Mermaid on the new div
+        mermaid.init(undefined, mermaidDiv);
+      });
     }, 100);
   }
   
   // Initialize Chart.js defaults
   if (typeof Chart !== 'undefined') {
     Chart.defaults.font.family = "'Inter', sans-serif";
-    Chart.defaults.color = '#2c3e50'; // Updated to match your color scheme
-    Chart.defaults.borderColor = '#95a5a6'; // Updated to match your color scheme
-    
-    // Set responsive defaults
+    Chart.defaults.color = '#2c3e50';
+    Chart.defaults.borderColor = '#95a5a6';
     Chart.defaults.responsive = true;
     Chart.defaults.maintainAspectRatio = false;
   }
@@ -40,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initialize interactive robotics diagrams
   initRoboticsDiagrams();
   
-  // Manually initialize charts after a delay to ensure DOM is ready
+  // Manually initialize charts after a delay
   setTimeout(() => {
     initCharts();
   }, 200);

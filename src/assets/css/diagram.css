@@ -104,3 +104,36 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* diagram.css - Mermaid diagram styling */
+
+.mermaid {
+    font-family: 'trebuchet ms', verdana, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mermaid .label {
+    color: #333;
+    font-weight: bold;
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+    fill: #fff;
+    stroke: #326ce5;
+    stroke-width: 1px;
+}
+
+.mermaid .edgePath .path {
+    stroke: #326ce5;
+    stroke-width: 1.5px;
+}
+
+.mermaid .edgeLabel {
+    background-color: #e8e8e8;
+    text-align: center;
+}

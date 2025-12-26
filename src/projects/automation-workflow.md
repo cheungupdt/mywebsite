@@ -8,7 +8,6 @@ layout: ../_includes/layouts/project-detail.njk
 url: /projects/automation-workflow/
 ---
 
-# Project 2 - Automation Workflow System
 
 ## Overview
 
