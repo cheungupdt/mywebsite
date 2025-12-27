@@ -3,7 +3,7 @@ title: Robotic Display in Convention and Exihition Centre
 date: 2022-08-21
 event: HKCCF 2022
 location: Hong Kong Convention and Exhibition Centre
-image: "/assets/images/posts/22082101.jpg"
+image: "/assets/images/legacy/22082101.jpg"
 layout: ../_includes/layouts/speaking-detail.njk
 ---
 
@@ -17,7 +17,6 @@ Demo the animatronics we have in house for show and tell
 
 - Design principles for robots
 - Tool selection and integration strategies
-- Measuring success metrics
 - Safety system
 
 ## Participant Feedback

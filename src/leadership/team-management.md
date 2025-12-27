@@ -12,7 +12,7 @@ layout: "../_includes/layouts/leadership-detail.njk"
 Effective team management is critical for the success of organizational. My approach focuses on creating environments my teammates can collaborate effectively to achieve results together.
 
 
-
+## 
 ## Team Building Strategies
 
 ### 1. Talent Acquisition
@@ -52,7 +52,7 @@ graph TD
 - **Decision Making**: Clear authority and processes
 
 
-
+## 
 ## Performance Management
 
 ### Goal Setting Framework
@@ -85,7 +85,7 @@ Bi-yearly: Performance reviews (60 minutes)
 - **Actionable Insights**: Clear improvement pathways
 
 
-
+## 
 ## Team Development
 
 ### Skill Building Programs
@@ -98,6 +98,7 @@ Bi-yearly: Performance reviews (60 minutes)
 - **Brown Bag Sessions**: Regular learning presentations
 - **Documentation**: Comprehensive knowledge base
 
+## 
 ## Conflict Resolution
 
 ### Proactive Measures
@@ -113,6 +114,8 @@ Bi-yearly: Performance reviews (60 minutes)
 4. **Agreement**: Clear action items and follow-up
 5. **Monitoring**: Ensuring resolution effectiveness
 
+
+##
 ## Lessons Learned
 
 ### What Works
@@ -127,6 +130,8 @@ Bi-yearly: Performance reviews (60 minutes)
 - Neglecting feedback
 - Resistance to change
 
+
+##
 ## Future Focus
 
 ### Emerging Trends

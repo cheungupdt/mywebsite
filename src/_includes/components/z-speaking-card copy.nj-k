@@ -3,7 +3,7 @@
     {% if engagement.data.image %}
     <img src="{{ engagement.data.image }}" alt="{{ engagement.data.title }}" loading="lazy">
     {% else %}
-    <img src="/assets/images/legacy/legacy.jpg?text={{ engagement.data.title | replace(' ', '+') }}" alt="{{ engagement.data.title }}" loading="lazy">
+    <img src="https://placehold.co/400x250/3366ff/ffffff?text={{ engagement.data.title | replace(' ', '+') }}" alt="{{ engagement.data.title }}" loading="lazy">
     {% endif %}
   </div>
   <div class="speaking-card-content">

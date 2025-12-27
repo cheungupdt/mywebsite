@@ -1,9 +1,9 @@
 ---
 title: Advanced Robotics Systems
-date: 2020-01-01
+date: 2021-11-25
 event: Robotics Presentation
 location: Hong Kong
-image: https://placehold.co/400x250/3366ff/ffffff?text=Robotics+Presentation
+image: "/assets/images/legacy/21112501.jpg"
 layout: ../_includes/layouts/speaking-detail.njk
 ---
 

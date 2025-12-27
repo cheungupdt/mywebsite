@@ -2,7 +2,7 @@
 title: Best VendorAward
 date: 2019-01-01
 organization: Disney
-icon: https://placehold.co/100x100/4ecdc4/ffffff?text=AEA
+icon: /assets/images/archivement/bestvendoraward.jpg?text=AEA
 description: Recognized for being an outstanding vendor to Disney Theme Parks
 layout: ../_includes/layouts/base.njk
 ---
