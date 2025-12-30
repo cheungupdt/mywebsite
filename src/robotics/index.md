@@ -1,19 +1,19 @@
 ---
 title: "Robotics Expertise"
 tags: ["Robotics"]
-description: "Advanced robotics and automation solutions showcasing technical expertise in industrial robotics, control systems, and automation."
-layout: "layouts/base"
+description: "Advanced robotics and automation solutions showcasing technical expertise in industrial robotics and control systems"
+layout: ../_includes/layouts/base.njk
 ---
 
 # Robotics Expertise
 
-Welcome to the robotics expertise hub, where innovation meets precision engineering. With extensive experience in industrial automation, robotic systems design, and control architecture, I bring cutting-edge solutions to complex manufacturing challenges.
+Welcome to the robotics expertise hub, where innovation meets precision engineering. With extensive experience in robotic systems design, I bring cutting-edge solutions to complex challenges.
 
 ## Core Competencies
 
 - **Industrial Robotics**: Design and implementation of robotic workcells for manufacturing
 - **Control Systems**: Advanced PLC and PC-based control architectures
-- **Computer Vision**: Integration of vision systems for quality control and guidance
+- **Computer Vision**: Integration of vision systems
 - **Motion Control**: Precision motion planning and execution algorithms
 - **Safety Systems**: Implementation of comprehensive safety protocols and systems
 
@@ -79,17 +79,80 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
       <a href="/robotics/industry-applications/" class="card-link">Learn More →</a>
     </div>
   </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/coral-monster.jpg" alt="Coral Monster" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Coral Monster</h3>
+      <p class="card-description">The Coral Monster in Chimelong Spaceship</p>
+      <div class="card-tags">
+        <span class="tag">Coral Monster</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/coral-monster/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/independents-day.jpg" alt="Independents' Day" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Independents' Day</h3>
+      <p class="card-description">The Monster Robot in Malysia</p>
+      <div class="card-tags">
+        <span class="tag">Independents' Day</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/independents-day/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/law-ka-ying.jpg" alt="Law Ka Ying" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Law Ka Ying</h3>
+      <p class="card-description">Law Ka Ying Humanoid performing in Xiqu Centre</p>
+      <div class="card-tags">
+        <span class="tag">Law Ka Ying Humanoid</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/law-ka-ying/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/other-robotics.jpg" alt="Other Robotics" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Other Robotics</h3>
+      <p class="card-description">Many real world robotics</p>
+      <div class="card-tags">
+        <span class="tag">Other Robotics</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/other-robotics/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+
+
+
+
+
+
 </div>
 
 ## Certifications & Training
 
 <div class="certifications">
+
   <div class="cert-item">
-    <h4>AI Agent Certification</h4>
-    <p>Advanced AI and machine learning for robotic systems</p>
-  </div>
-  <div class="cert-item">
-    <h4>Professional Engineer (NCESS)</h4>
+    <h4>Professional Engineer (NCESS) (exam passed)</h4>
     <p>National Council of Examiners for Engineering and Surveying</p>
   </div>
 </div>

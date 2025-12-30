@@ -1,11 +1,11 @@
 ---
-title: Chimelong Spaceship- Coral Monster
-date: 2023-10-16
+title: Safety in Construction
+date: 2025-04-15
 tags: ["Project Management", "Animatronics", "FEA"]
-description: Coral Monster being one of Asia's Largest indoor Structure with Animatronics 
+description: Various Construction Projects in Hong Kong 
 image: "/assets/images/projects/23101601.jpg"
 layout: ../_includes/layouts/project-detail.njk
-#url: /projects/data-analysis-platform/
+#url: /projects/hong_kong_construction/
 ---
 
 
@@ -19,6 +19,13 @@ Design an indoor Animatronic Structure that is fully featured.
 - **Range of Motion**: Large Range of Motion
 - **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
 - **Project Timeline**: Short project timeline leads to further design change
+
+
+standards
+water hygine
+
+
+
 
 ##
 ## Gallery

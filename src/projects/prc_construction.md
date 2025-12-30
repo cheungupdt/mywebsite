@@ -1,8 +1,8 @@
 ---
-title: Chimelong Spaceship- Coral Monster
+title: Construction Project in Mainland China
 date: 2023-10-16
 tags: ["Project Management", "Animatronics", "FEA"]
-description: Coral Monster being one of Asia's Largest indoor Structure with Animatronics 
+description: Various construction project in Mainland China
 image: "/assets/images/projects/23101601.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/data-analysis-platform/

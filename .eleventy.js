@@ -75,8 +75,8 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("src/robotics/**/*.md");
   });
   
-  eleventyConfig.addCollection("n8nchief", function(collection) {
-    return collection.getFilteredByGlob("src/n8nchief/**/*.md");
+  eleventyConfig.addCollection("automation", function(collection) {
+    return collection.getFilteredByGlob("src/automation/**/*.md");
   });
   
   eleventyConfig.addCollection("leadership", function(collection) {

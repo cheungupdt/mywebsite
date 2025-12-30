@@ -1,16 +1,16 @@
 ---
 title: "Integration Patterns"
 tags: ["N8N", "Integration"]
-description: "Proven patterns for system integration"
+description: "Patterns for system integration"
 layout: "layouts/n8nchief-detail"
-permalink: /n8nchief/integration-patterns/
+permalink: /automation/integration-patterns/
 ---
 
 # Integration Patterns
 
 ## Overview
 
-System integration is both an art and a science. With experience integrating hundreds of services and APIs, I've developed proven patterns that ensure reliable, maintainable, and scalable integrations.
+System integration is both an art and a science. With experience integrating lots of services and APIs, I've developed proven patterns that ensure reliable, maintainable, and scalable integrations.
 
 ## Common Integration Challenges
 

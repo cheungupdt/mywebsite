@@ -9,7 +9,7 @@
     <nav class="breadcrumb">
       <a href="/">Home</a>
       <span class="separator">/</span>
-      <a href="/n8nchief/">n8n Expertise</a>
+      <a href="/automation/">Automation Expertise</a>
       <span class="separator">/</span>
       <span class="current">{{ title }}</span>
     </nav>
@@ -18,7 +18,7 @@
       <header class="article-header">
         <h1 class="article-title">{{ title }}</h1>
         <div class="article-meta">
-          <span class="category">n8n Workflow Expertise</span>
+          <span class="category">Automation Workflow Expertise</span>
           <span class="reading-time">8 min read</span>
         </div>
       </header>
@@ -31,7 +31,7 @@
         <div class="related-topics">
           <h3>Related Workflows</h3>
           <div class="topic-grid">
-            {% set related = collections.n8nchief | where("data.tags", tags[0]) | limit(3) %}
+            {% set related = collections.automation | where("data.tags", tags[0]) | limit(3) %}
             {% for item in related %}
               {% if item.url != page.url %}
               <a href="{{ item.url }}" class="topic-card">
@@ -44,8 +44,8 @@
         </div>
         
         <div class="navigation-links">
-          {% set prev = collections.n8nchief | getPreviousCollectionItem %}
-          {% set next = collections.n8nchief | getNextCollectionItem %}
+          {% set prev = collections.automation | getPreviousCollectionItem %}
+          {% set next = collections.automation | getNextCollectionItem %}
           
           {% if prev %}
           <a href="{{ prev.url }}" class="nav-link prev">
@@ -68,8 +68,8 @@
       <div class="sidebar-section">
         <h3>Workflow Areas</h3>
         <nav class="sidebar-nav">
-          {% for item in collections.n8nchief %}
-            {% if item.data.title != "n8n Workflow Expertise" %}
+          {% for item in collections.automation %}
+            {% if item.data.title != "Automation Workflow Expertise" %}
             <a href="{{ item.url }}" class="nav-item {% if item.url == page.url %}active{% endif %}">
               {{ item.data.title }}
             </a>

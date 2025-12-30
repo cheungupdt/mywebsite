@@ -1,0 +1,36 @@
+---
+title: Various personal projects
+date: 2024-12-18
+tags: ["IoT", "Data Visualization"]
+description: Different interesting personal projects
+image: "/assets/images/posts/24122601.jpg" # https://placehold.co/600x400/45b7d1/ffffff?text=Project+3 
+layout: ../_includes/layouts/project-detail.njk
+#url: /projects/iot-monitoring-system/
+---
+
+## Overview
+
+Using Data Visualization, IoT monitoring system for various Cameras, providing real-time data visualization and intelligent alerting capabilities.
+
+## Technical Details
+
+- **Database**: Time-series database for efficient data storage
+- **Communication**: MQTT protocol for device communication
+- **Visualization**: Dashboards with real-time updates
+
+## Gallery
+
+<div class="image-gallery">
+  <a href="/assets/images/posts/24122602.jpg" data-lightbox="iot" data-title="Security Cameras">
+    <img src="/assets/images/posts/24122602.jpg" alt="Security Cameras">
+  </a>
+  <a href="/assets/images/posts/24122603.jpg"  data-lightbox="iot" data-title="Hobby Cameras">
+    <img src="/assets/images/posts/24122603.jpg"  alt="Hobby Cameras">
+  </a>
+</div>
+
+## Results
+
+- Monitored 5 Cameras
+- Reduced Processing need by 70%
+- Help improved data accuracy

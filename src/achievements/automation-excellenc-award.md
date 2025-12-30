@@ -1,6 +1,6 @@
 ---
 title: Best VendorAward
-date: 2019-01-01
+date: 2020-03-23
 organization: Disney
 icon: /assets/images/archivement/bestvendoraward.jpg?text=AEA
 description: Recognized for being an outstanding vendor to Disney Theme Parks
@@ -11,7 +11,7 @@ layout: ../_includes/layouts/base.njk
 
 ## Overview
 
-Help the company to manage projects and leads to being the top vendor in the Disney Theme Parks.
+Help the company to manage projects and leads to being the top vendor in the Disney Theme Parks back in 2018.
 
 ## Project Highlights
 
