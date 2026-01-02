@@ -67,8 +67,8 @@
   force = true
 
 [[redirects]]
-  from = "/n8nchief/*"
-  to = "/n8nchief/"
+  from = "/automation/*"
+  to = "/automation/"
   status = 301
   force = true
 

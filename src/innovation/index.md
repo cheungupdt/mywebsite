@@ -29,33 +29,6 @@ Innovation is the engine of progress and competitive advantage. My approach comb
 ## Featured Areas
 
 <div class="expertise-grid">
-  <div class="innovation-card expertise-card">
-    <div class="card-image">
-      <img src="/assets/images/innovation/methodologies.jpg" alt="Methodologies" loading="lazy">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Methodologies</h3>
-      <p class="card-description">Proven innovation frameworks and approaches</p>
-      <div class="card-badge">
-        <span class="badge foundational">Foundational</span>
-      </div>
-      <a href="/innovation/methodologies/" class="card-link">Innovate →</a>
-    </div>
-  </div>
-  
-  <div class="innovation-card expertise-card">
-    <div class="card-image">
-      <img src="/assets/images/innovation/problem-solving.jpg" alt="Problem Solving" loading="lazy">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Problem Solving</h3>
-      <p class="card-description">Creative approaches to complex challenges</p>
-      <div class="card-badge">
-        <span class="badge practical">Practical</span>
-      </div>
-      <a href="/innovation/problem-solving/" class="card-link">Innovate →</a>
-    </div>
-  </div>
   
   <div class="innovation-card expertise-card">
     <div class="card-image">
@@ -73,15 +46,15 @@ Innovation is the engine of progress and competitive advantage. My approach comb
   
   <div class="innovation-card expertise-card">
     <div class="card-image">
-      <img src="/assets/images/innovation/innovation-standard.jpg" alt="Standard" loading="lazy">
+      <img src="/assets/images/innovation/innovation-safety-standard.jpg" alt="Standard" loading="lazy">
     </div>
     <div class="card-content">
       <h3 class="card-title">Standard</h3>
-      <p class="card-description">Innovation with Standard </p>
+      <p class="card-description">Innovation with Safety Standard </p>
       <div class="card-badge">
         <span class="badge strategic">Strategic</span>
       </div>
-      <a href="/innovation/innovation-standard/" class="card-link">Innovate →</a>
+      <a href="/innovation/innovation-safety-standard/" class="card-link">Innovate →</a>
     </div>
   </div>
   
@@ -110,6 +83,34 @@ Innovation is the engine of progress and competitive advantage. My approach comb
         <span class="badge strategic">Strategic</span>
       </div>
       <a href="/innovation/innovation-management/" class="card-link">Innovate →</a>
+    </div>
+  </div>
+
+  <div class="innovation-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/innovation/methodologies.jpg" alt="Methodologies" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Methodologies</h3>
+      <p class="card-description">Proven innovation frameworks and approaches</p>
+      <div class="card-badge">
+        <span class="badge foundational">Foundational</span>
+      </div>
+      <a href="/innovation/methodologies/" class="card-link">Innovate →</a>
+    </div>
+  </div>
+  
+  <div class="innovation-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/innovation/problem-solving.jpg" alt="Problem Solving" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Problem Solving</h3>
+      <p class="card-description">Creative approaches to complex challenges</p>
+      <div class="card-badge">
+        <span class="badge practical">Practical</span>
+      </div>
+      <a href="/innovation/problem-solving/" class="card-link">Innovate →</a>
     </div>
   </div>
   

@@ -7,78 +7,17 @@ layout: ../_includes/layouts/base.njk
 
 # Robotics Expertise
 
-Welcome to the robotics expertise hub, where innovation meets precision engineering. With extensive experience in robotic systems design, I bring cutting-edge solutions to complex challenges.
+Welcome to the robotics expertise hub, where innovation meets precision engineering. With extensive experience in robotic systems design, I bring solutions to complex challenges.
 
 ## Core Competencies
 
-- **Industrial Robotics**: Design and implementation of robotic workcells for manufacturing
-- **Control Systems**: Advanced PLC and PC-based control architectures
-- **Computer Vision**: Integration of vision systems
+- **Longevity Robotics**: Design and implementation of robotic for durable operation
 - **Motion Control**: Precision motion planning and execution algorithms
 - **Safety Systems**: Implementation of comprehensive safety protocols and systems
 
 ## Featured Areas
 
 <div class="expertise-grid">
-  <div class="robotics-card expertise-card">
-    <div class="card-image">
-      <img src="/assets/images/robotics/automation-systems.jpg" alt="Automation Systems" loading="lazy">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Automation Systems</h3>
-      <p class="card-description">Comprehensive automation solutions for manufacturing processes</p>
-      <div class="card-tags">
-        <span class="tag">Robotics</span>
-        <span class="tag">Automation</span>
-      </div>
-      <a href="/robotics/automation-systems/" class="card-link">Learn More →</a>
-    </div>
-  </div>
-  
-  <div class="robotics-card expertise-card">
-    <div class="card-image">
-      <img src="/assets/images/robotics/robotic-arm-design.jpg" alt="Robotic Arm Design" loading="lazy">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Robotic Arm Design</h3>
-      <p class="card-description">Custom robotic arm design and optimization</p>
-      <div class="card-tags">
-        <span class="tag">Robotics</span>
-        <span class="tag">Design</span>
-      </div>
-      <a href="/robotics/robotic-arm-design/" class="card-link">Learn More →</a>
-    </div>
-  </div>
-  
-  <div class="robotics-card expertise-card">
-    <div class="card-image">
-      <img src="/assets/images/robotics/sensor-integration.jpg" alt="Sensor Integration" loading="lazy">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Sensor Integration</h3>
-      <p class="card-description">Multi-sensor fusion and data processing systems</p>
-      <div class="card-tags">
-        <span class="tag">Robotics</span>
-        <span class="tag">Sensors</span>
-      </div>
-      <a href="/robotics/sensor-integration/" class="card-link">Learn More →</a>
-    </div>
-  </div>
-  
-  <div class="robotics-card expertise-card">
-    <div class="card-image">
-      <img src="/assets/images/robotics/industry-applications.jpg" alt="Industry Applications" loading="lazy">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Industry Applications</h3>
-      <p class="card-description">Real-world implementations and case studies</p>
-      <div class="card-tags">
-        <span class="tag">Robotics</span>
-        <span class="tag">Applications</span>
-      </div>
-      <a href="/robotics/industry-applications/" class="card-link">Learn More →</a>
-    </div>
-  </div>
   
   <div class="robotics-card expertise-card">
     <div class="card-image">
@@ -127,6 +66,51 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
   
   <div class="robotics-card expertise-card">
     <div class="card-image">
+      <img src="/assets/images/robotics/monkey-king.jpg" alt="Monkey King" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Monkey King</h3>
+      <p class="card-description">Monkey King</p>
+      <div class="card-tags">
+        <span class="tag">Monkey King Humanoid</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/monkey-king/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/boss.jpg" alt="Boss" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Boss</h3>
+      <p class="card-description">Boss Humanoid</p>
+      <div class="card-tags">
+        <span class="tag">Boss Humanoid</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/boss/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/consultation-milk-tea-robot.jpg" alt="Consultation for Milk Tea Robot" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Consultation Milk Tea Robot</h3>
+      <p class="card-description">Giving consultation to Milk Tea Robot</p>
+      <div class="card-tags">
+        <span class="tag">Milk Tea Robot Consultation</span>
+        <span class="tag">Applications</span>
+      </div>
+      <a href="/robotics/consultation-milk-tea-robot/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+  
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
       <img src="/assets/images/robotics/other-robotics.jpg" alt="Other Robotics" loading="lazy">
     </div>
     <div class="card-content">
@@ -141,10 +125,21 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
   </div>
 
 
-
-
-
-
+  <div class="robotics-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/robotics/automation-systems.jpg" alt="Automation Systems" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Automation Systems</h3>
+      <p class="card-description">Comprehensive automation solutions for manufacturing processes</p>
+      <div class="card-tags">
+        <span class="tag">Robotics</span>
+        <span class="tag">Automation</span>
+      </div>
+      <a href="/robotics/automation-systems/" class="card-link">Learn More →</a>
+    </div>
+  </div>
+    
 </div>
 
 ## Certifications & Training

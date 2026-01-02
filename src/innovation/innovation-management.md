@@ -1,20 +1,34 @@
 ---
 title: "Innovation-Management"
-tags: ["Innovation"]
-description: "Creative Structural Design Stategy to increase loading capacity"
+tags: ["Innovation", "Project Management", "Agile", "Scrum", "Kanban", "CPM" ]
+description: "Creative Project Management and tools"
 layout: "../_includes/layouts/base.njk"
 ---
 
-# Structural Innovation
+# Management Innovation
 
 ## Overview
 
-In the field of well established Structural Engineering, there are still many ways I've been managed to create lasting impact and reduce business operation cost. 
+In projects management, the goal is to get the project done and meeting it's resource and time requirement. From my years of project manageemnt. I found that many managers are rather rigid in their management style. Some insist on waterfall method, some insist on full documentation at each stages, some afraid to let people see their project unless all details have "green light" at once. Many of these traditional practices have delay, client changed their requirement mid-way and caused chaos and finger pointing, none of which leads to completion with client's acceptance. My experience in manageing 30+ project a year tells me there should be newer ways to manage project. Frankly, my take is a hybrid type of setup for project management, which emcompass Agile, Scrum, Kanban, and CPM.
 
-## Design Loading Innovation
+## Key Elements
 
-In the field of engineering, loading is very established, there maybe additional cases to add or there are minor loading changes subjected to Code of Practice or other standards. Through many problem solving strategies, i managed to make very minor design change to significantly reduced my company's liability, fabrication hazzle, reduce cost and time, while making all the engineering team from vendor to client all marveled and happy to sign their name to it.
+### Critical Timeline
 
-### Shifting the 80mm hole by 5mm 
+The more I manage, the more i found the importance of schedule. Schedule is not just dates, or bars in Gantt Chart,  it is collective set of agreement that is visual and vivid. It communicates desire and workflow that may have legal consequences. Dates of deadlines can also affect funding availability and budgeting issues. I always develop Critical Path Method schedules to see what are the buffers and how we allocate manpower. 
 
-There was a key loading cases in which I shifted one hole by 5mm (with also added tolerance requirment), i managed to get the structure's weight loading to only 50%  (from 20kN down to 10kN), all with a single simple hole shifting.
+### Visualising Success
+
+Humans likes to see things to completion, to check boxes, or move things, so that's why apps like Trello were so popular. This gives the visualization that things started, in progress, done, or not even started. Kanban is a way that i use to make sure that people see how things are progressing. 
+
+### Visualising Ritual
+
+There is something to haivng special practices to people. We are creatures of habits, there is a special thing about regularity that is attractive, that is why i like the Scrum methods to have certain efficient meetings, roles,  celeration rituals that help push things along 
+
+### Push Together In Efficient Mannor
+
+At last, Agile (which Scrum is part of) is a key framework that makes things more efficient, it focus on short periods pushes, it focus on client vendor communication, it focus on key things instead of endless wall building against client and vendor and endless project delays.
+
+## Conclusion
+
+All in all, my strategy is not just a single schedule, not just a bunch of Scope of Work, and legal timeslines. My strategies is a collaborative mindset that takes in useful elements from each of the key project management frameworks to make sure things are Done, Budgets are met, Stakeholders are happy, essential learnings are cascaded. 
