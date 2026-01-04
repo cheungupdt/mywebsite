@@ -1,14 +1,14 @@
 ---
-title: "Project Update: Robotics Arm Progress"
+title: "Project Update: Robot Progress"
 date: "2023-10-16"
 tags: ["Robotics", "Project-Update"]
-description: "Latest developments in the robotics arm control system"
+description: "Latest developments in the robotics control system"
 featured_image: "/assets/images/posts/23101601.jpg"
 secondary_image: "/assets/images/posts/23101602.jpg"
 layout: layouts/post.njk
 ---
 
-Robotics Arm Progress/assets/images/posts
+Robotics Progress/assets/images/posts
 
 Significant progress on the robotics arm control system today! After three weeks of development, I've successfully implemented the inverse kinematics algorithm that allows for precise positioning in 3D space.
 

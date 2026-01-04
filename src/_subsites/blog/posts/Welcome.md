@@ -18,7 +18,7 @@ In this blog, you'll find:
 - Updates on my current projects
 - Insights into robotics technology
 - Automation workflows and techniques
-- Innovation in hydraulic and pneumatic systems
+- Innovation in  actuation systems
 - Thoughts on the future of human-robot interaction
 
 ## Why Posts?

@@ -1,15 +1,18 @@
 ---
-title: "Coral Monster Design"
+title: "Coral Monster Animatronics"
 tags: ["Robotics", "Design"]
 description: "Coral Monster Design"
 layout: "../_includes/layouts/robotics-detail.njk"
 ---
 
-# Robotic Arm Design
+# Coral Monstor
+
+Located in Chimelong Spaceship- we were told it was the largest indoor animatronics at the time.
+
 
 ## Overview
 
-Robotic arm design requires a deep understanding of mechanics, electronics, and software. My approach combines theoretical knowledge with practical experience to create optimized solutions for specific applications.
+The Coral Monster has many degree of motions to make it full featured. We were given the artistic rendering and basic motion it want to achive. We then visualize the effect, further design, engineering, and fabricated the Coral Monster.
 
 ## Design Process
 
@@ -18,65 +21,25 @@ Robotic arm design requires a deep understanding of mechanics, electronics, and 
 - Working envelope analysis
 - Speed and precision specifications
 - Environmental considerations
+- Hazard Analysis
+- Floor Bearing Load requirements
+- Timeline
+- QA/QC Strategy
+- Insurance
 
 ### 2. Kinematic Design
 - DH parameter optimization
 - Joint configuration selection
 - Workspace analysis
-- Singularity avoidance
 
 ### 3. Dynamic Analysis
 - Inertia calculations
 - Torque requirements
-- Vibration analysis
-- Control system tuning
 
-## Technical Specifications
+### 4. Actuator Analysis
+- Refine motion with real actuator data
+- Longevity analysis
 
-### 6-DOF Industrial Arm
-- **Payload**: 10 kg
-- **Reach**: 1.2 meters
-- **Repeatability**: ±0.02 mm
-- **IP Rating**: IP54
-- **Control**: EtherCAT communication
+With other design process, we went to further design requirmenet like machining, welding, various procurement process (note that as the actuators and bearings are not consumer sizes, there are various process to speedup the design (one bearing quoted us 36 months of lead time and we have to find ways to make the design work as we only have 6-7 months to  complete the whole design fabrication to start with. 
 
-### Collaborative Robot (Cobot)
-- **Payload**: 5 kg
-- **Reach**: 900 mm
-- **Force Sensing**: Integrated at each joint
-- **Safety**: Power and force limiting
-- **Programming**: Lead-through, GUI, SDK
-
-## Software Architecture
-
-### Control Stack
-- **Application**:
-- **Motion API**:
-- **Trajectory**:
-- **Planning**:
-- **Kinematics**:
-- **Hardware**:
-- **Interface**:
-
-
-### Programming Interfaces
-- **ROS Integration**: Full ROS 2 support with custom packages
-- **Python API**: High-level control and automation scripting
-- **C++ SDK**: Real-time control capabilities
-- **Web Interface**: Remote monitoring and configuration
-
-## Case Study: Pick and Place Optimization
-
-### Challenge
-Achieve 60 picks per minute with 99.9% accuracy in a constrained workspace.
-
-### Solution
-- Custom end-effector design with vacuum and gripper combination
-- Advanced path planning algorithms
-- Vision system integration for part detection
-- Real-time trajectory optimization
-
-### Results
-- **Speed**: 65 picks per minute (8% above target)
-- **Accuracy**: 99.95% success rate
-- **ROI**: 18 months payback period
+We went through all needed heat treatment, surface treatment of metals (and needed coatings), all structural and mechanism testing, maintainance strategies, and daily operation strategies, shipping, and installation, we finally got this done within the 6-7 month time frame requested.
