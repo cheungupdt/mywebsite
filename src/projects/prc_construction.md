@@ -11,14 +11,11 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. 
+Design and build outddor and indoor structures in Beijing, Shanghai, Zhuhai, From some famous parade floats, to vaious indoor animatronics of various size.
 
 ## Technical Details
 
-- **Actuator**: Hydraulic system with remote mechanical room
-- **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
-- **Project Timeline**: Short project timeline leads to further design change
+- **Project Timeline**: Various project timeline
 
 ##
 ## Gallery
@@ -36,4 +33,3 @@ Design an indoor Animatronic Structure that is fully featured.
 ## Results
 
 - Successfully delivered the project within the short timeframe.
-- One of the best memorable piece remembered by visitors

@@ -11,7 +11,7 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. 
+Design an indoor Animatronic Structure that is fully featured. Long routing of hydraulic pipeline, mechanical room key feature design with cooling and redundancy. 
 
 ## Technical Details
 

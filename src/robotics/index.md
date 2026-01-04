@@ -99,7 +99,7 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
       <img src="/assets/images/robotics/consultation-milk-tea-robot.jpg" alt="Consultation for Milk Tea Robot" loading="lazy">
     </div>
     <div class="card-content">
-      <h3 class="card-title">Consultation Milk Tea Robot</h3>
+      <h3 class="card-title">Consultation- Milk Tea Robot</h3>
       <p class="card-description">Giving consultation to Milk Tea Robot</p>
       <div class="card-tags">
         <span class="tag">Milk Tea Robot Consultation</span>
@@ -131,7 +131,7 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
     </div>
     <div class="card-content">
       <h3 class="card-title">Automation Systems</h3>
-      <p class="card-description">Comprehensive automation solutions for manufacturing processes</p>
+      <p class="card-description">Automation solutions for manufacturing processes</p>
       <div class="card-tags">
         <span class="tag">Robotics</span>
         <span class="tag">Automation</span>

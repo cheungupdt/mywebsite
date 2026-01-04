@@ -1,9 +1,9 @@
 ---
 title: Safety in Construction
 date: 2025-04-15
-tags: ["Project Management", "Animatronics", "FEA"]
+tags: ["Project Management", "Safety"]
 description: Various Construction Projects in Hong Kong 
-image: "/assets/images/projects/23101601.jpg"
+image: "/assets/images/projects/construction-safety.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/hong_kong_construction/
 ---
@@ -11,20 +11,22 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. 
+Various constructions have their own safety issues. Even with many years of experience, there are always key strategies we employ to ensure project safety and project success. 
 
 ## Technical Details
+- **Project Timeline**: Various Project Timelines
 
-- **Actuator**: Hydraulic system with remote mechanical room
-- **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
-- **Project Timeline**: Short project timeline leads to further design change
+## Strategies - Local Standards
+From years of various project, design structures are easy, optimizing them are not, but the key is standards. Me and my team always able to find rough weight, and rough structural design from just seeing the design intend hand scatches, with relatively high accuracy from experience. So after a quick estimate of weight and respective bearing load requirement. We will quickly shift to strategies with standards, getting bases quick. 
+
+if design have special wind code to follow, we will follow the wind code. If the design may expose to earthquake, will find the related earthquake standard. If design has water, then we will find the related water standards, and if water hygenie standard needed, those standards will be employed and related chemical consideration will be done. We will always request samples to ensure we can appropriately comply with local standards.
+
+## Strategies - Local SME
+Regardless of how experience we are, my team always seek for local SME when possible. Quick consultation to ensure local compliances is key to ensure we have project sucess.
 
 
-standards
-water hygine
-
-
+## Counter proposal in Written Documents
+Where projects have various changes, we always ensure the projects have proper written documentation that served as counter proposal. Like Bassis of Engineering, and Scope of Work, these are key document to help the company to ensure liability for the company is manageable. Of course making sure the client buy-off before key fabrication is key. Afterall, none of us would like the project to go wrong.
 
 
 ##
@@ -43,4 +45,3 @@ water hygine
 ## Results
 
 - Successfully delivered the project within the short timeframe.
-- One of the best memorable piece remembered by visitors

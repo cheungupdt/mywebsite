@@ -1,9 +1,9 @@
 ---
 title: Construction Project in Hong Kong
 date: 2025-04-15
-tags: ["Project Management", "Animatronics", "FEA"]
+tags: ["Project Management", "FEA"]
 description: Various Construction Projects in Hong Kong 
-image: "/assets/images/projects/23101601.jpg"
+image: "/assets/images/projects/construction-hong-kong.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/hong_kong_construction/
 ---
@@ -11,14 +11,15 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. 
+Design and build indoor and outdoor Structures. Many strucural projects, parade floats and animatronic project.
+
+Various structures with Building Department negotiation, 70m tents, overhead structures
+
+Various projects went through licensing, TPPE, Minor Works, submittals to Highway Departmetn, Civil Aviation Department. 
+
 
 ## Technical Details
-
-- **Actuator**: Hydraulic system with remote mechanical room
-- **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
-- **Project Timeline**: Short project timeline leads to further design change
+- **Project Timeline**: Various project timeline
 
 ##
 ## Gallery
@@ -35,5 +36,5 @@ Design an indoor Animatronic Structure that is fully featured.
 ##
 ## Results
 
-- Successfully delivered the project within the short timeframe.
-- One of the best memorable piece remembered by visitors
+- Successfully delivered the project within timeframe.
+

@@ -1,7 +1,7 @@
 ---
-title: "Robotic Arm Design"
+title: "Coral Monster Design"
 tags: ["Robotics", "Design"]
-description: "Custom robotic arm design and optimization"
+description: "Coral Monster Design"
 layout: "../_includes/layouts/robotics-detail.njk"
 ---
 

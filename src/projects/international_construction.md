@@ -3,7 +3,7 @@ title: Construction Project around the world
 date: 2023-10-16
 tags: ["Project Management", "Animatronics", "FEA"]
 description: Various Construction Projects around the world
-image: "/assets/images/projects/23101601.jpg"
+image: "/assets/images/projects/construction-international.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/data-analysis-platform/
 ---
@@ -11,14 +11,13 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. 
+Design an indoor Animatronic Structure in Malysia, Dubai, France, Tokyo. All with various requirment.
+
+Some structures have high elevation, overhead structure, and some structures permanently sit inside color water. 
 
 ## Technical Details
 
-- **Actuator**: Hydraulic system with remote mechanical room
-- **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
-- **Project Timeline**: Short project timeline leads to further design change
+- **Project Timeline**: VArious project timeline
 
 ##
 ## Gallery
@@ -36,4 +35,3 @@ Design an indoor Animatronic Structure that is fully featured.
 ## Results
 
 - Successfully delivered the project within the short timeframe.
-- One of the best memorable piece remembered by visitors

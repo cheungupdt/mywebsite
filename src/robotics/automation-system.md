@@ -24,6 +24,7 @@ Automation systems form the backbone of modern society, enabling precision, effi
 
 ### Robotics Integration
 - **Brands**: ABB
+- **Custom**: Python
 
 ## Future Developments
 
