@@ -7,25 +7,28 @@ layout: "layouts/base"
 
 # Innovation Portfolio
 
-Innovation is the engine of progress and competitive advantage. My approach combines methodologies with creative exploration to develop solutions that address challenges in work value. From incremental improvements to breakthrough innovations, I drive transformation across products, processes, and business models.
+True innovation in technical fields isn't about novelty for its own sake—it's about solving real problems with elegant, practical solutions. My innovation approach combines engineering rigor with creative thinking, demonstrated through achievements like reducing structural loading by 50% through a 5mm hole shift, or strengthening assemblies by strategically removing (rather than adding) members. These counterintuitive solutions emerge from deep analysis rather than conventional thinking, delivering significant cost savings and performance improvements.
+
+At Artech Design and Production, I innovated the company's entire knowledge management approach, creating standardized tools and templates that accelerated engineering calculations 3x-5x while reducing errors. At Hong Kong Disneyland, I established protocols for the Entertainment Department's first outdoor animatronics—navigating unique HKBD requirements that previously limited such installations to Imagineering. These innovations share a common thread: they're grounded in practical constraints (budget, timeline, regulations) while expanding what's technically possible.
 
 ## Innovation Philosophy
 
 ### Core Principles
-- **Human-Centered**: Solving real problems for real people
-- **Business-Valued**: Anchored on existing process for incremental changes
-- **Data-Driven**: Evidence-based decision making
-- **Iterative**: Continuous learning and improvement
-- **Collaborative**: Diverse perspectives and expertise
-- **Sustainable**: Long-term value creation
+- **Human-Centered**: Solving real problems for real people within actual constraints
+- **Business-Valued**: Delivering measurable improvements to efficiency, cost, or quality
+- **Data-Driven**: Using analysis and simulation to guide creative solutions
+- **Iterative**: Testing and refining based on real-world feedback
+- **Collaborative**: Leveraging diverse perspectives from artists to technicians
+- **Sustainable**: Creating solutions that deliver long-term value
 
 ### Innovation Mindset
-- **Curiosity**: Constant exploration
-- **Courage**: Willingness to take calculated risks
-- **Resilience**: Learning from failure and persistence
-- **Openness**: Embracing diverse ideas and feedback
-- **Discipline**: Structured approach to creativity
+- **Curiosity**: Questioning assumptions and exploring alternatives
+- **Courage**: Proposing unconventional solutions with analytical justification
+- **Resilience**: Learning from setbacks and persisting through complexity
+- **Openness**: Incorporating feedback from all stakeholders
+- **Discipline**: Applying structured thinking to creative challenges
 
+##
 ## Featured Areas
 
 <div class="expertise-grid">
@@ -149,14 +152,23 @@ Innovation is the engine of progress and competitive advantage. My approach comb
 
 ## Recent Innovations
 
-### Technology Breakthroughs
-- **AI-assisted workflow**: Artificial Intelligent supplemented work and related quality control
-- **IoT assisted alert system**: Improving information and traceability
-- **Process Automation**: Using softwares to reduce human intervention
+### Technical Breakthroughs
+- **Structural Optimization**: Member reduction strategies that increase factor of safety
+- **Weld Design Innovation**: Understanding that more welding can decrease safety through distortion and stress
+- **Process Automation**: Tools that reduce human intervention while increasing consistency
+- **Safety Standard Development**: Practical frameworks that balance protection with feasibility
+
+### Project Management Innovation
+- **Hybrid Methodology**: Combining Agile, Scrum, Kanban, and CPM for optimal results
+- **Visualization Tools**: Creating intuitive progress tracking and resource allocation systems
+- **Critical Path Optimization**: Identifying and managing true schedule drivers
 
 ##
 ## Future Focus Areas
 
-- **Artificial Intelligence**: Advanced ML applications
-- **Sustainable Technology**: Green innovation initiatives
-- **Human-Machine Collaboration**: Enhanced interfaces and workflows
+- **AI-Assisted Engineering**: Machine learning for design optimization and failure prediction
+- **Sustainable Technology**: Green innovations for entertainment and construction
+- **Human-Machine Collaboration**: Enhanced interfaces that leverage both human judgment and machine precision
+- **Digital Twins**: Virtual replicas for testing, training, and maintenance planning
+
+Innovation, in my experience, most often lives at intersections—between disciplines, between constraints, between what's desired and what's possible. By embracing these tensions as creative opportunities, I've consistently delivered solutions that redefine expectations while respecting practical realities.

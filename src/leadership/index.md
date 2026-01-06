@@ -7,7 +7,9 @@ layout: "layouts/base"
 
 # Leadership Experience
 
-Leadership is about empowering my teammates to achieve their full potential while navigating complex challenges and driving meaningful change. It's always a balancing act between intend from upper management and team's motivation and ability. My approach combines strategic vision with practical execution, developing environments where innovation thrives and people excel while cascading needed messages back to management. 
+Leading technical teams in high-stakes environments requires balancing creative vision with practical execution, innovation with safety, and ambition with feasibility. My leadership approach—refined through managing teams at Artech Design and Production and Hong Kong Disneyland—centers on empowering individuals while maintaining clear strategic direction. I've successfully guided teams through complex projects like Universal Beijing's opening parade floats and Chimelong's massive indoor animatronics, where technical challenges meet immovable deadlines.
+
+Implementing Hersey-Blanchard Situational Leadership, I adapt my management style to team maturity and project complexity. For experienced engineers, I provide autonomy within clear frameworks; for developing talent, I offer structured guidance with progressive responsibility. This approach has delivered 85+ projects on time and within budget while developing team members who have progressed to more senior roles. The trust earned through consistent delivery has enabled me to lead initiatives requiring cross-departmental collaboration and significant organizational change.
 
 ## Leadership Philosophy
 
@@ -130,3 +132,5 @@ Leadership is about empowering my teammates to achieve their full potential whil
     <cite>- Senior Technical Director, Hong Kong Disneyland Resort</cite>
   </blockquote>
 </div>
+
+My leadership extends beyond direct teams to influencing organizational standards. I involved in reviewing and updating company safety standards and licensing protocols, I help shape the frameworks that govern documentations in technical entertainment in Hong Kong. This dual focus—team development and systemic improvement—creates leadership impact that multiplies across the organization.

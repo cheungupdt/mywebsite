@@ -6,7 +6,10 @@ layout: ../_includes/layouts/base.njk
 
 # Achievements
 
-Welcome to my achievements showcase. Here you'll find a collection of my professional accomplishments, and recognitions across various domains.
+My career is built on a foundation of consistent delivery, safety excellence, and technical innovation. Having managed 30+ annual shows at Hong Kong Disneyland Resort with zero major injury reports, I've established a track record of reliable execution under pressure. My work has been recognized by industry leaders and has directly contributed to company success through budget adherence, on-time delivery, and licensing compliance.
+
+The "Best Vendor Award" for Artech Design and Production for outstanding service to Disney Theme Parks represents more than just recognition—it validates my approach to transforming artistic vision into technical reality while exceeding safety requirements. This achievement was earned through meticulous project management, innovative structural solutions, and a relentless focus on quality that elevated vendor performance to new standards.
+
 
 ## Featured Achievements
 
@@ -32,3 +35,11 @@ Welcome to my achievements showcase. Here you'll find a collection of my profess
     <p>Passed Professional Engineering in Mechanical Design Discipline</p>
   </div>
 </div>
+
+### **Operational Excellence:**
+- **100% Budget Compliance**: Managed seasonal technical budgets without overruns, building trust for future project funding
+- **100% Licensing Success**: Resolved complex licensing issues for entertainment department, ensuring all projects launched with proper approvals
+- **Safety Leadership**: Established safety protocols for drone shows, pyrotechnics, laser displays, and water systems
+- **Technical Innovation**: Created engineering calculation tools that accelerated workflow 3x-5x while reducing errors
+
+These achievements reflect my commitment to not just meeting expectations, but redefining what's possible in technical entertainment and construction project management.

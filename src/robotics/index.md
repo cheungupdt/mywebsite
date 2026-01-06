@@ -7,13 +7,16 @@ layout: ../_includes/layouts/base.njk
 
 # Robotics Expertise
 
-Welcome to the robotics expertise hub, where innovation meets precision engineering. With extensive experience in robotic systems design, I bring solutions to complex challenges.
+Robotics represents the intersection of mechanical precision, electronic control, and artistic expression—a convergence I've mastered through designing and delivering over 200 animatronic figures for global theme parks. My expertise spans from massive hydraulic systems like Chimelong's Coral Monster (one of Asia's largest indoor animatronics) to delicate humanoid performances like Law Ka Ying's Cantonese Opera robot at Hong Kong's Xiqu Centre. Each project begins with a fundamental question: how do we create machines that move with both technical reliability and artistic grace?
+
+The Coral Monster project exemplified this balance—designing hydraulic systems with remote mechanical rooms, managing long pipeline routing, and ensuring maintenance accessibility, all within a 6-7 month timeline despite bearing lead times quoting 36 months. Similarly, the Independence Day Monster in Malaysia required redesigning a failed system to achieve both visual impact and operational longevity. My approach combines rigorous engineering analysis (kinematics, dynamics, FEA) with practical fabrication knowledge, ensuring designs are not only theoretically sound but manufacturable within real-world constraints.
 
 ## Core Competencies
 
-- **Longevity Robotics**: Design and implementation of robotic for durable operation
-- **Motion Control**: Precision motion planning and execution algorithms
-- **Safety Systems**: Implementation of comprehensive safety protocols and systems
+- **Longevity Robotics**: Design and implementation of robotic systems for durable operation across thousands of cycles
+- **Motion Control**: Precision motion planning from simple mechanisms to multi-axis synchronized movements
+- **Safety Systems**: Comprehensive safety protocols for human-robot interaction in public environments
+- **Hydraulic & Pneumatic Systems**: Remote mechanical room design, pipeline optimization, and maintenance planning
 
 ## Featured Areas
 
@@ -142,6 +145,15 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
     
 </div>
 
+## Technical Approach
+
+Every robotics project follows a disciplined process: requirements analysis (payload, range, speed, environment), kinematic design, dynamic analysis, actuator selection, and longevity validation. But beyond the technical, I focus on the human elements—how technicians will maintain the system, how operators will interact with it, and how audiences will experience it. This holistic perspective has enabled success across diverse applications:
+
+- **Entertainment Robotics**: Parade floats, show action equipment, theatrical animatronics
+- **Humanoid Systems**: Cantonese opera performers, character robots, interactive figures
+- **Industrial Applications**: Consultation on food service robots, manufacturing automation
+- **Specialized Mechanisms**: Winch systems, lifting frames, custom motion profiles
+
 ## Certifications & Training
 
 <div class="certifications">
@@ -151,3 +163,5 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
     <p>National Council of Examiners for Engineering and Surveying</p>
   </div>
 </div>
+
+My robotics philosophy centers on "necessary and sufficient" design—achieving artistic intent without overengineering. By shifting a single hole 5mm on the Coral Monster, I reduced structural loading by 50% (20kN to 10kN). This optimization mindset, combined with deep technical knowledge, delivers robotics solutions that are elegant, efficient, and enduring.
