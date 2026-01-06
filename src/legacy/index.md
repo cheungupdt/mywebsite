@@ -1,13 +1,13 @@
 ---
 title: Legacy
-description: Key Comapny Assest Establishment and presentations engagements
+description: Key Company Asset Establishment and presentations engagements
 layout: layouts/base.njk
 permalink: /legacy/
 ---
 
 # Public Engagements
 
-Welcome to various key company assest establishments and public engagements section. Here you'll find some of my key legacy, and public engagement events.
+Welcome to various key company asset establishments and public engagements section. Here you'll find some of my key legacy, and public engagement events.
 
 ## Featured Public Engagements
 

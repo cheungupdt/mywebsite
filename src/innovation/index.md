@@ -151,7 +151,7 @@ Innovation is the engine of progress and competitive advantage. My approach comb
 
 ### Technology Breakthroughs
 - **AI-assisted workflow**: Artificial Intelligent supplemented work and related quality control
-- **IoT assisted alert system**: Improving information and tracibility
+- **IoT assisted alert system**: Improving information and traceability
 - **Process Automation**: Using softwares to reduce human intervention
 
 ##

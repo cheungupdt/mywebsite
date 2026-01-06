@@ -13,15 +13,15 @@ Today I want to share a bit about my journey in safety - how I got started, the 
 
 ## The Beginning
 
-My safety in jornery began with a anamatronic breaking in mid operation: "Anyone get hurt?"
+My safety in journey began with a ani animatronics breaking in mid operation: "Did anyone get hurt?"
 
-This question led me down a path of discovery, from basic mechanical systems to complex autonomous machines, how to revise the design to make it more safe.
+This question led me down a path of discovery, from basic mechanical systems to complex autonomous machines, and how to revise the design to make it safer.
 
 ## Key Learnings
 
 ### 1. No one get hurt!
 
-One of the most important question to designer is: "Will you let people get hurt?" Of course not! Regardless of the financial implecation. The idea that someone in my project got hurt is very daunting to hear. There is always safety issues to resolve in projects, once you take on the project, you will bear that burden on. With that in mind, what is the "necessary and sufficient" is a lot more tangible and always very important to guage, especially no projects have infinite financial ceiling.
+One of the most important question to designer is: "Will you let people get hurt?" Of course not! Regardless of the financial implication. The idea that someone in my project got hurt is very daunting to hear. There is always safety issues to resolve in projects, once you take on the project, you will bear that burden on. With that in mind, what is the "necessary and sufficient" is a lot more tangible and always very important to gauge, especially no projects have infinite financial ceiling.
 
 ### 2. Common Buzz word: "Safety"
 

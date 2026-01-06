@@ -11,7 +11,7 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure in Malysia, Dubai, France, Tokyo. All with various requirment.
+Design an indoor Animatronics Structure in Malaysia, Dubai, France, Tokyo. All with various requirement.
 
 Some structures have high elevation, overhead structure, and some structures permanently sit inside color water. 
 
@@ -23,11 +23,11 @@ Some structures have high elevation, overhead structure, and some structures per
 ## Gallery
 
 <!-- <div class="image-gallery">
-  <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
-    <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
+  <a href="/assets/images/projects/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
+    <img src="/assets/images/projects/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
-  <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
-    <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
+  <a href="/assets/images/projects/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
+    <img src="/assets/images/projects/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
 </div> -->
 

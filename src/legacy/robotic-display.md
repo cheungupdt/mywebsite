@@ -1,5 +1,5 @@
 ---
-title: Robotic Display in Convention and Exihition Centre
+title: Robotic Display in Convention and Exhibition Centre
 date: 2022-08-21
 event: HKCCF 2022
 location: Hong Kong Convention and Exhibition Centre

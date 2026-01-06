@@ -1,7 +1,7 @@
 ---
 title: "Innovation-Structural"
 tags: ["Innovation", "Structural"]
-description: "Creative Structural Design Stategy to increase loading capacity"
+description: "Creative Structural Design Strategy to increase loading capacity"
 layout: "../_includes/layouts/base.njk"
 ---
 
@@ -18,7 +18,7 @@ In the field of engineering, loading is very established, there maybe additional
 
 ### Shifting the 80mm hole by 5mm 
 
-There was a key loading cases in which I shifted one hole by 5mm (with also added tolerance requirment), i managed to get the structure's weight loading to only 50%  (from 20kN down to 10kN), all with a single simple hole shifting.
+There was a key loading cases in which I shifted one hole by 5mm (with also added tolerance requirement), i managed to get the structure's weight loading to only 50%  (from 20kN down to 10kN), all with a single simple hole shifting.
 
 ### Strengthen by Member Reduction
 
@@ -26,4 +26,4 @@ Many engineers likes to reinforce structure when the design doesn't meet require
 
 ### Strengthen by Weld Reduction
 
-Often times designer likes to design with welds that is "Full Strength", more weld is better type of mindset. Often times, this is true and it gains factor of safety, on paper. However, that doesn't mean it is "more safe". Designers are not aware that more welds means more heat input, distortion, and more internal stress. If not properly managed, i saw a case that a structure has a full punching shear (due to weld design issue) failure and rendered the strucrue useless. Granted, i often let my team to go forth with Full strength Butt Weld, and full penetration (CJP) welds because the design's need, but i will make sure only teammates who knows this serious issues should ever approve the design. 
+Often times designer likes to design with welds that is "Full Strength", more weld is better type of mindset. Often times, this is true and it gains factor of safety, on paper. However, that doesn't mean it is "more safe". Designers are not aware that more welds means more heat input, distortion, and more internal stress. If not properly managed, i saw a case that a structure has a full punching shear (due to weld design issue) failure and rendered the structure useless. Granted, i often let my team to go forth with Full strength Butt Weld, and full penetration (CJP) welds because the design's need, but i will make sure only teammates who knows this serious issues should ever approve the design. 

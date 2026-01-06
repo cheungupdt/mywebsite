@@ -19,7 +19,7 @@ Effective team management is critical for the success of organizational. My appr
 - **Strategic Hiring**: Aligning team composition with business goals
 - **Cultural Fit**: Ensuring alignment with organizational values
 - **Skill Assessment**: Comprehensive evaluation of technical and soft skills
-- **Peronality Assessment**: Make sure the personality matches team's need
+- **Personality Assessment**: Make sure the personality matches team's need
 
 ### 2. Onboarding Excellence
 ```mermaid

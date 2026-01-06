@@ -11,7 +11,7 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. Long routing of hydraulic pipeline, mechanical room key feature design with cooling and redundancy. 
+Design an indoor Animatronics Structure that is fully featured. Long routing of hydraulic pipeline, mechanical room key feature design with cooling and redundancy. 
 
 ## Video Demonstration
 
@@ -32,18 +32,18 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 
 - **Actuator**: Hydraulic system with remote mechanical room
 - **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
+- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hence weight significantly affected by various creative intend.
 - **Project Timeline**: Short project timeline leads to further design change
 
 ##
 ## Gallery
 
 <!-- <div class="image-gallery">
-  <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
-    <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
+  <a href="/assets/images/projects/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
+    <img src="/assets/images/projects/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
-  <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
-    <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
+  <a href="/assets/images/projects/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
+    <img src="/assets/images/projects/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
 </div> -->
 

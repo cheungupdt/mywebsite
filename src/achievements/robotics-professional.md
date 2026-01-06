@@ -3,7 +3,7 @@ title: Robotics Professional
 date: 2022-04-15
 description: Professional in robotics system design, implementation, and maintenance.
 organization: Artech Design and Production
-icon: /assets/images/archivement/artech.jpg?text=CRP
+icon: /assets/images/achievements/artech.jpg?text=CRP
 url: #https://example.com/
 layout: ../_includes/layouts/base.njk
 ---
@@ -12,7 +12,7 @@ layout: ../_includes/layouts/base.njk
 
 ## Overview
 
-Being a Robotics Professional after completing comprehensive training in robotics systems.
+Became a Robotics Professional after completing comprehensive training in robotics systems.
 
 ## Requirements Met
 

@@ -5,14 +5,14 @@ description: "Coral Monster Design"
 layout: "../_includes/layouts/robotics-detail.njk"
 ---
 
-# Coral Monstor
+# Coral Monster
 
 Located in Chimelong Spaceship- we were told it was the largest indoor animatronics at the time.
 
 
 ## Overview
 
-The Coral Monster has many degree of motions to make it full featured. We were given the artistic rendering and basic motion it want to achive. We then visualize the effect, further design, engineering, and fabricated the Coral Monster.
+The Coral Monster has many degree of motions to make it full featured. We were given the artistic rendering and basic motion it want to achieve. We then visualize the effect, further design, engineering, and fabricated the Coral Monster.
 
 ## Design Process
 
@@ -40,6 +40,6 @@ The Coral Monster has many degree of motions to make it full featured. We were g
 - Refine motion with real actuator data
 - Longevity analysis
 
-With other design process, we went to further design requirmenet like machining, welding, various procurement process (note that as the actuators and bearings are not consumer sizes, there are various process to speedup the design (one bearing quoted us 36 months of lead time and we have to find ways to make the design work as we only have 6-7 months to  complete the whole design fabrication to start with. 
+With other design process, we went to further design requirement like machining, welding, various procurement process (note that as the actuators and bearings are not consumer sizes, there are various process to speedup the design (one bearing quoted us 36 months of lead time and we have to find ways to make the design work as we only have 6-7 months to  complete the whole design fabrication to start with. 
 
-We went through all needed heat treatment, surface treatment of metals (and needed coatings), all structural and mechanism testing, maintainance strategies, and daily operation strategies, shipping, and installation, we finally got this done within the 6-7 month time frame requested.
+We went through all needed heat treatment, surface treatment of metals (and needed coatings), all structural and mechanism testing, maintenance strategies, and daily operation strategies, shipping, and installation, we finally got this done within the 6-7 month time frame requested.

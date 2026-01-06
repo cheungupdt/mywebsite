@@ -30,18 +30,18 @@ Design Parade Floats for Universal Studios. Directed the structural design and f
 
 ## Technical Details
 
-- **Range of Motion**: Large Range of Motion with multi-joints with similated fire 
-- **Artistic Intend**: Simulated Fire blowing dragon as as overhead structure. All structures are not straight up, supporting various key animatronic elements in the float.
+- **Range of Motion**: Large Range of Motion with multi-joints with simulated fire 
+- **Artistic Intend**: Simulated Fire blowing dragon as as overhead structure. All structures are not straight up, supporting various key animatronics elements in the float.
 
 ##
 ## Gallery
 
 <!-- <div class="image-gallery">
-  <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
-    <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
+  <a href="/assets/images/projects/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
+    <img src="/assets/images/projects/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
-  <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
-    <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
+  <a href="/assets/images/projects/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
+    <img src="/assets/images/projects/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
 </div> -->
 

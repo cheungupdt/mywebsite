@@ -2,7 +2,7 @@
 title: Best VendorAward
 date: 2020-03-23
 organization: Artech Design and Production
-icon: /assets/images/archivement/bestvendoraward.jpg?text=AEA
+icon: /assets/images/achievements/bestvendoraward.jpg?text=AEA
 description: Recognized for being an outstanding vendor to Disney Theme Parks
 layout: ../_includes/layouts/base.njk
 ---
@@ -11,13 +11,13 @@ layout: ../_includes/layouts/base.njk
 
 ## Overview
 
-Help the company to manage projects and leads to being the top vendor in the Disney Theme Parks back in 2018.
+Helped the company to manage projects and led to being the top vendor in the Disney Theme Parks back in 2018.
 
 ## Project Highlights
 
 - Designed and implemented various Parade Float
 - Integrated multiple legacy systems
-- Bring the artistic drawings and vision to LIVE
+- Bring the artistic drawings and vision to life
 - Meeting and exceed required safety compliances.
 
 ## Impact

@@ -40,7 +40,7 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
     </div>
     <div class="card-content">
       <h3 class="card-title">Independence Day</h3>
-      <p class="card-description">The Monster Robot in Malysia</p>
+      <p class="card-description">The Monster Robot in Malaysia</p>
       <div class="card-tags">
         <span class="tag">Independence Day</span>
         <span class="tag">Applications</span>

@@ -9,7 +9,7 @@ layout: "layouts/base.njk"
 
 Automation is the use of technology, programs, or robotics to perform tasks with minimal human intervention, aimed at increasing efficiency, consistency, and productivity. It streamlines processes across industries.
 
-For my journy in automation, I design and implement different automation solutions like AI Agnet, and chatbot that streamline processes, integrate disparate systems, and drive operational efficiency, like chatbot to reduce human intervention. I believe with tools like n8n's capabilities and extensibility, workflows that can transform how organizations operate.
+For my journey in automation, I design and implement different automation solutions like AI Agent, and chatbot that streamline processes, integrate disparate systems, and drive operational efficiency, like chatbot to reduce human intervention. I believe with tools like n8n's capabilities and extensibility, workflows that can transform how organizations operate.
 
 ## Core Competencies
 
@@ -82,8 +82,8 @@ For my journy in automation, I design and implement different automation solutio
       <img src="/assets/images/automation/chatbot.jpg" alt="Chatbot" loading="lazy">
     </div>
     <div class="card-content">
-      <h3 class="card-title">Chatbots</h3>
-      <p class="card-description">Chatbots in Automation</p>
+      <h3 class="card-title">Chatbot</h3>
+      <p class="card-description">Chatbot in Automation</p>
       <div class="card-meta">
         <span class="complexity intermediate">Intermediate</span>
       </div>

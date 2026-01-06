@@ -13,10 +13,10 @@ Humanoid Robots could be very involved. The key is to know exactly what it needs
 
 ## Design Process
 
-We gather the requirement and start designig the movment, with motor spec. 
+We gather the requirement and start designing the movement, with motor spec. 
 
 We counter propose the movement (and timing) to ensure the motor can work.
 
-We fabricate the needed parts to ensure it works according to the deisgn
+We fabricate the needed parts to ensure it works according to the design
 
 We program with the software to ensure they get to the appropriate motions when needed.

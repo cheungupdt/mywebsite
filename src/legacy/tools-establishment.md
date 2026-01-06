@@ -15,7 +15,7 @@ One of the fastest way to speed up projects is using standardize tools to ease c
 
 ## Highlights
 - Created Engineering Calculation report Tools, speed up 3x-5x time compare to previous method and drastically reduce error.
-- Created All Engineering submittal templates, some are being passed along within Diesny's vendor.
+- Created All Engineering submittal templates, some are being passed along within Disney's vendor.
 - Created Project Management manpower tools for manager to predict manpower
 - Created Scheduling tools to generate required Gantt Charts
 

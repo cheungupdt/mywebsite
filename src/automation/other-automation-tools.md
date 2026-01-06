@@ -9,7 +9,7 @@ layout: "../_includes/layouts/n8nchief-detail.njk"
 
 ## Overview
 
-There are different Automation tools out there, some are of specific niche. For business use, I definitely recommand n8n after trying out tools like Zapier and Node Red
+There are different Automation tools out there, some are of specific niche. For business use, I definitely recommend n8n after trying out tools like Zapier and Node Red
 
 ## Zapier
 
@@ -20,7 +20,7 @@ There are different Automation tools out there, some are of specific niche. For 
 - The cost really piles up with Zapier, i did a few simple email automation and it fills up the task easily. 
 
 ### 3. Controls
-- N8N has a lot more controls on the nodes, you can easily setup memory, various logics, retries, it is just more convienent once you get use to it. 
+- N8N has a lot more controls on the nodes, you can easily setup memory, various logics, retries, it is just more convenient once you get use to it. 
 
 ##
 ## Node Red
@@ -32,4 +32,4 @@ There are different Automation tools out there, some are of specific niche. For 
 - The setup overall are complete towards homelab user and programmer, maybe it can be implemented for some specific project, but definitely not for business.
 
 ### 3. Controls
-- Node Red has a lot of nodes, but still n8n is much simplier to add memory and integrates to other business appliation. 
+- Node Red has a lot of nodes, but still n8n is much simpler to add memory and integrates to other business application. 

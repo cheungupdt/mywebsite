@@ -35,11 +35,11 @@ Design an indoor Animatronic in Malysia, where the monster moved awaken.
 ## Gallery
 
 <!-- <div class="image-gallery">
-  <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
-    <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
+  <a href="/assets/images/projects/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
+    <img src="/assets/images/projects/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
-  <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
-    <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
+  <a href="/assets/images/projects/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
+    <img src="/assets/images/projects/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
 </div> -->
 

@@ -9,7 +9,7 @@ layout: "../_includes/layouts/n8nchief-detail.njk"
 
 ## Overview
 
-Chatbot can be used to integrate with websites and applications, so that it can use existing data, along with RAG (Retrival Augmented Generation) to give user answers without user asking other co-workers
+Chatbot can be used to integrate with websites and applications, so that it can use existing data, along with RAG (Retrieval Augmented Generation) to give user answers without them asking other co-workers
 
 ## Design Principles
 - Easily used

@@ -10,7 +10,7 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-We were asked to build some animatronics into a room that triggered suprise moments for the guest. One of which is a Baby Face that is standing right next to the door entrance to scare the visitor that they have just walked underneath a giant spider Baby Face. Due to the thin plates and wide span of the toy, there has been a lot of challenges back then when i interact with the Building Department to convey structural safety to HKBD. 
+We were asked to build some animatronics into a room that triggered surprise moments for the guest. One of which is a Baby Face that is standing right next to the door entrance to scare the visitor that they have just walked underneath a giant spider Baby Face. Due to the thin plates and wide span of the toy, there has been a lot of challenges back then when i interact with the Building Department to convey structural safety to HKBD. 
 
 ## Video Demonstration
 
@@ -33,11 +33,11 @@ We were asked to build some animatronics into a room that triggered suprise mome
 ## Gallery
 
 <!-- <div class="image-gallery">
-  <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
-    <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
+  <a href="/assets/images/projects/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
+    <img src="/assets/images/projects/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
-  <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
-    <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
+  <a href="/assets/images/projects/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
+    <img src="/assets/images/projects/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
 </div> -->
 

@@ -44,7 +44,7 @@ graph LR
 
 ### Stakeholder Management
 - **Management**: Regular updates, quarterly reviews
-- **Clients**: Team meetings, writen communications
+- **Clients**: Team meetings, written communications
 - **Partners**: Regular check-ins, strategic alignment
 
 ###

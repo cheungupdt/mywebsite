@@ -11,7 +11,7 @@ layout: ../_includes/layouts/speaking-detail.njk
 
 ## Overview
 
-One of the issues during recruitment process is after someone is onboarded. How to train the person. Manual mentoring is not efficient enough and all mentors may have slight variation on understanding of the company's process. My boss asked me to create a comapny standard as i was extremely well in creating the weld and inspection procedures years before. Such company standards will enable team's aligment on understanding on all design and fabrication matters. It will also enable an easy onboarding process to new hires. 
+One of the issues during recruitment process is after someone is onboarded. How to train the person. Manual mentoring is not efficient enough and all mentors may have slight variation on understanding of the company's process. My boss asked me to create a company standard as i was extremely well in creating the weld and inspection procedures years before. Such company standards will enable team's alignment on understanding on all design and fabrication matters. It will also enable an easy onboarding process to new hires. 
 
 ## Highlights
 

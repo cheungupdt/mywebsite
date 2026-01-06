@@ -18,9 +18,9 @@ Over the years of establishing safety documentations, we've added many key items
 - How to access the location.
 - How to perform the action safely.
 - What to avoid in the process.
-- What to watchout for during performance, or during maintainnance.
+- What to watchout for during performance, or during maintenance.
 - Who to do what in emergency situation.
 
 ## Participant Feedback
 
-Hundreds of participants were trainied and all acknowledged the trainings and signed to agree in participating their role according to the safety training. 
+Hundreds of participants were trained and all acknowledged the trainings and signed to agree in participating their role according to the safety training. 

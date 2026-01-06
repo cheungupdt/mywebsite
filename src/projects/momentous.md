@@ -2,7 +2,7 @@
 title: 20A Momentous
 date: 2025-05-22
 tags: ["Show", "Safety","Quality Assurance"]
-description: Process, Licensing and Liasing to Quality Show
+description: Process, Licensing and Liaising to Quality Show
 image: "/assets/images/projects/25052201.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/automation-workflow/
@@ -11,7 +11,7 @@ layout: ../_includes/layouts/project-detail.njk
 
 ## Overview
 
-Ensure safety aspect of the structures, new drones, equipment, along with old processs with pyrotechnic, laser and maintainance process are safety and up to company quality by actively engage key partners and establish procedure for them
+Ensure safety aspect of the structures, new drones, equipment, along with old processes with pyrotechnic, laser and maintenance process are safety and up to company quality by actively engage key partners and establish procedure for them
 
 ## Technical Details
 

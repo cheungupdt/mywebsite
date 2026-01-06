@@ -11,7 +11,7 @@ layout: ../_includes/layouts/speaking-detail.njk
 
 ## Overview
 
-For giving clients confidents for fabrication on Huge Show Action Equipments, i were told to create a document of our current process to client to ensure that client know what we are doing. I setout to create an A3 package of a full welding and inspection process. 
+For giving clients confident for fabrication on Huge Show Action Equipments, i were told to create a document of our current process to client to ensure that client know what we are doing. I setout to create an A3 package of a full welding and inspection process. 
 
 ## Highlights
 
@@ -24,4 +24,4 @@ The document is a package about after steps after receiving a fully designed dra
 
 ## Impact
 
-All clients saw this document and relating drawings immediates is confident about our fabrication process. Many clients were asking if we can give them soft copies that we rightfully declined. 
+All clients saw this document and relating drawings immediately is confident about our fabrication process. Many clients were asking if we can give them soft copies that we rightfully declined. 
