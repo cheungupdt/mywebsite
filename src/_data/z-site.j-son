@@ -40,5 +40,8 @@
       "url": "/contact/"
     }
   ],
-  "social": {}
+  "social": {
+    "linkedin": "https://linkedin.com/in/kcsteam",
+    "twitter": "https://twitter.com/kcsteam"
+  }
 }

@@ -1,11 +1,11 @@
 ---
-title: "Innovation-Management"
+title: "Innovation-Project Management"
 tags: ["Innovation", "Project Management", "Agile", "Scrum", "Kanban", "CPM" ]
 description: "Creative Project Management and tools"
 layout: "../_includes/layouts/base.njk"
 ---
 
-# Management Innovation
+# Project Management Innovation
 
 ## Overview
 

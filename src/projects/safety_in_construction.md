@@ -2,7 +2,7 @@
 title: Safety in Construction
 date: 2025-04-15
 tags: ["Project Management", "Safety"]
-description: Various Construction Projects in Hong Kong 
+description: Safety Strategies to Tackle Projects Around the World
 image: "/assets/images/projects/construction-safety.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/hong_kong_construction/
@@ -32,16 +32,11 @@ Where projects have various changes, we always ensure the projects have proper w
 ##
 ## Gallery
 
-<div class="image-gallery">
+<!-- <div class="image-gallery">
   <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
     <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
   <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
     <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
-</div>
-
-##
-## Results
-
-- Successfully delivered the project within the short timeframe.
+</div> -->

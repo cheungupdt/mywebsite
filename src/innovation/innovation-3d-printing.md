@@ -1,7 +1,7 @@
 ---
-title: "Innovation-AI"
-tags: ["Innovation"]
-description: "Creative use of AI to Reduce human intervention in work"
+title: "Innovation-3D-Printing"
+tags: ["Innovation", "3D-Printing"]
+description: "Creative of 3D printing for structural purpose"
 layout: "../_includes/layouts/base.njk"
 ---
 

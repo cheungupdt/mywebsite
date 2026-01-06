@@ -1,11 +1,11 @@
 ---
-title: "Independents' Day Monster"
+title: "Independence Day's Monster"
 tags: ["Robotics", "Design"]
-description: "Custom build independents' day monster"
+description: "Custom build Independence Day's monster"
 layout: "../_includes/layouts/robotics-detail.njk"
 ---
 
-# Independents' Day Monster
+# Independence Day's Monster
 
 ## Overview
 

@@ -22,14 +22,14 @@ Some structures have high elevation, overhead structure, and some structures per
 ##
 ## Gallery
 
-<div class="image-gallery">
+<!-- <div class="image-gallery">
   <a href="/assets/images/projets/23101602.jpg?text=Data+Dashboard" data-lightbox="data" data-title="Data Dashboard">
     <img src="/assets/images/projets/23101602.jpg?text=Dashboard" alt="Data Dashboard">
   </a>
   <a href="/assets/images/projets/23101603.jpg?text=Model+Performance" data-lightbox="data" data-title="Model Performance">
     <img src="/assets/images/projets/23101603.jpg?text=Performance" alt="Model Performance">
   </a>
-</div>
+</div> -->
 
 ##
 ## Results

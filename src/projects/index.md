@@ -11,6 +11,7 @@ Welcome to my projects showcase. Here you'll find a collection of my work across
 ## Featured Projects
 
 <div class="projects-grid">
+  <!-- {% for project in collections.projects | reverse %} {% endfor %}-->
   {% for project in collections.projects | reverse %}
     {% include "../_includes/components/project-card.njk" %}
   {% endfor %}

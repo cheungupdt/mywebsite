@@ -9,7 +9,7 @@ permalink: /blog/safety-journey/index.html
 
 # My Safety Journey: From Concept to Reality
 
-Today I want to share a bit about my journey in robotics - how I got started, the challenges I've faced, and where I see the field heading.
+Today I want to share a bit about my journey in safety - how I got started, the challenges I've faced, and where I see the field heading.
 
 ## The Beginning
 
@@ -21,7 +21,7 @@ This question led me down a path of discovery, from basic mechanical systems to 
 
 ### 1. No one get hurt!
 
-One of the most important question is: "Will you let people get hurt?" Of course not! Regardless of the financial implecation. The idea that someone in my project got hurt is very daunting to hear. There is always a financial limitation to projects, once you take on the project, you will bear that burden on. What is necessary and sufficient is always important to guage. 
+One of the most important question to designer is: "Will you let people get hurt?" Of course not! Regardless of the financial implecation. The idea that someone in my project got hurt is very daunting to hear. There is always safety issues to resolve in projects, once you take on the project, you will bear that burden on. With that in mind, what is the "necessary and sufficient" is a lot more tangible and always very important to guage, especially no projects have infinite financial ceiling.
 
 ### 2. Common Buzz word: "Safety"
 
@@ -41,7 +41,7 @@ Right now, I'm particularly excited about:
 
 ## Looking Forward
 
-The future of safety is bring people together to a better place. We're in the journey to bring thee world to a better place.
+The future is to bring people to a better place. Therefore, the safety journey is to bring people in the world to a better place safely
 
 ---
 

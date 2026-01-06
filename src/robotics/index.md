@@ -36,16 +36,16 @@ Welcome to the robotics expertise hub, where innovation meets precision engineer
   
   <div class="robotics-card expertise-card">
     <div class="card-image">
-      <img src="/assets/images/robotics/independents-day.jpg" alt="Independents' Day" loading="lazy">
+      <img src="/assets/images/robotics/independence-day.jpg" alt="Independence Day" loading="lazy">
     </div>
     <div class="card-content">
-      <h3 class="card-title">Independents' Day</h3>
+      <h3 class="card-title">Independence Day</h3>
       <p class="card-description">The Monster Robot in Malysia</p>
       <div class="card-tags">
-        <span class="tag">Independents' Day</span>
+        <span class="tag">Independence Day</span>
         <span class="tag">Applications</span>
       </div>
-      <a href="/robotics/independents-day/" class="card-link">Learn More →</a>
+      <a href="/robotics/independence-day/" class="card-link">Learn More →</a>
     </div>
   </div>
   

@@ -1,13 +1,13 @@
 ---
 title: Legacy
-description: Conference presentations and speaking engagements
+description: Key Comapny Assest Establishment and presentations engagements
 layout: layouts/base.njk
 permalink: /legacy/
 ---
 
 # Public Engagements
 
-Welcome to various public engagements display. Here you'll find some of my presentations, workshops, and public demo events.
+Welcome to various key company assest establishments and public engagements section. Here you'll find some of my key legacy, and public engagement events.
 
 ## Featured Public Engagements
 

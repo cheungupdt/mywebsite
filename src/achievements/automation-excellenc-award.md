@@ -1,7 +1,7 @@
 ---
 title: Best VendorAward
 date: 2020-03-23
-organization: Disney
+organization: Artech Design and Production
 icon: /assets/images/archivement/bestvendoraward.jpg?text=AEA
 description: Recognized for being an outstanding vendor to Disney Theme Parks
 layout: ../_includes/layouts/base.njk

@@ -74,11 +74,11 @@ Innovation is the engine of progress and competitive advantage. My approach comb
   
   <div class="innovation-card expertise-card">
     <div class="card-image">
-      <img src="/assets/images/innovation/innovation-management.jpg" alt="Management" loading="lazy">
+      <img src="/assets/images/innovation/innovation-management.jpg" alt="Project Management" loading="lazy">
     </div>
     <div class="card-content">
-      <h3 class="card-title">Management</h3>
-      <p class="card-description">Innovation in Management</p>
+      <h3 class="card-title">Project Management</h3>
+      <p class="card-description">Innovation in Project Management</p>
       <div class="card-badge">
         <span class="badge strategic">Strategic</span>
       </div>

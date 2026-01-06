@@ -40,6 +40,22 @@ Leadership is about empowering my teammates to achieve their full potential whil
       <a href="/leadership/team-management/" class="card-link">Discover →</a>
     </div>
   </div>
+
+
+  <div class="leadership-card expertise-card">
+    <div class="card-image">
+      <img src="/assets/images/leadership/collaborative-communication.jpg" alt="Collaborative Communication" loading="lazy">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Collaborative Communication</h3>
+      <p class="card-description">Building and Resolving issues across teams</p>
+      <div class="card-impact">
+        <span class="impact-label">Impact:</span>
+        <span class="impact-value high">High</span>
+      </div>
+      <a href="/leadership/collaborative-communication/" class="card-link">Discover →</a>
+    </div>
+  </div>
   
   <div class="leadership-card expertise-card">
     <div class="card-image">

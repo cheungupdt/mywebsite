@@ -1,17 +1,17 @@
 ---
-title: Chimelong Spaceship- Coral Monster
-date: 2023-10-16
+title: Independence Day Monster
+date: 2022-02-08
 tags: ["Project Management", "Animatronics", "FEA"]
-description: Coral Monster being one of Asia's Largest indoor Structure with Animatronics 
-image: "/assets/images/projects/23101601.jpg"
+description: Independence Day's Monster project
+image: "/assets/images/projects/independence-day.jpg"
 layout: ../_includes/layouts/project-detail.njk
-#url: /projects/data-analysis-platform/
 ---
 
 
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. Long routing of hydraulic pipeline, mechanical room key feature design with cooling and redundancy. 
+Design an indoor Animatronic in Malysia, where the monster moved awaken. 
+
 
 ## Video Demonstration
 
@@ -19,7 +19,7 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 <iframe 
   width="560" 
   height="315" 
-  src="https://www.youtube.com/embed/YjruPfKtQZE?start=2064" 
+  src="https://www.youtube.com/embed/JX08taCOXlA?start=150" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -27,13 +27,9 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 </iframe>
 </div>
 
-
 ## Technical Details
 
-- **Actuator**: Hydraulic system with remote mechanical room
-- **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
-- **Project Timeline**: Short project timeline leads to further design change
+- **Project Timeline**: VArious project timeline
 
 ##
 ## Gallery
@@ -51,4 +47,3 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 ## Results
 
 - Successfully delivered the project within the short timeframe.
-- One of the best memorable piece remembered by visitors

@@ -1,10 +1,11 @@
 {
   "title": "Contact & Collaboration",
   "description": "Get in touch with KC Steam for collaboration opportunities",
-  "email": "kevin@kcsteam.org",
+  "email": "contact@kcsteam.org",
   "phone": "+852 9765-8006",
   "social": {
-    "linkedin": "https://linkedin.com/in/kcsteam"
+    "linkedin": "https://linkedin.com/in/kcsteam",
+    "twitter": "https://twitter.com/kcsteam"
   },
   "collaborationOpportunities": [
     {

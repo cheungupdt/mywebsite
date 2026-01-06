@@ -1,17 +1,18 @@
 ---
-title: Chimelong Spaceship- Coral Monster
-date: 2023-10-16
-tags: ["Project Management", "Animatronics", "FEA"]
-description: Coral Monster being one of Asia's Largest indoor Structure with Animatronics 
-image: "/assets/images/projects/23101601.jpg"
+title: Universal Beijing- Puss in Boots Float
+date: 2021-09-20
+tags: ["Project Management", "Animatronics", "Parade Floats"]
+description: Universal Studio Beijing's Opening Floats Units
+image: "/assets/images/projects/universal-opening-floats.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/data-analysis-platform/
 ---
 
 
+
 ## Overview
 
-Design an indoor Animatronic Structure that is fully featured. Long routing of hydraulic pipeline, mechanical room key feature design with cooling and redundancy. 
+Design Parade Floats for Universal Studios. Directed the structural design and fabrication of the complex Puss in Boots Dragon float. Oversaw the integration of animatronics, structural engineering, and show effects to meet stringent creative and operational deadlines.
 
 ## Video Demonstration
 
@@ -19,7 +20,7 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 <iframe 
   width="560" 
   height="315" 
-  src="https://www.youtube.com/embed/YjruPfKtQZE?start=2064" 
+  src="https://youtube.com/embed/2_pM5HJN7Qg?start=397" 
   title="YouTube video player" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -27,13 +28,10 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 </iframe>
 </div>
 
-
 ## Technical Details
 
-- **Actuator**: Hydraulic system with remote mechanical room
-- **Range of Motion**: Large Range of Motion
-- **Artistic Intend**: Affects weight of individual scenic, further stronger and heavier structure resulted, hences weight significantly affected by various creative intend.
-- **Project Timeline**: Short project timeline leads to further design change
+- **Range of Motion**: Large Range of Motion with multi-joints with similated fire 
+- **Artistic Intend**: Simulated Fire blowing dragon as as overhead structure. All structures are not straight up, supporting various key animatronic elements in the float.
 
 ##
 ## Gallery
@@ -51,4 +49,3 @@ Design an indoor Animatronic Structure that is fully featured. Long routing of h
 ## Results
 
 - Successfully delivered the project within the short timeframe.
-- One of the best memorable piece remembered by visitors

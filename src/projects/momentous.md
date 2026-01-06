@@ -2,7 +2,7 @@
 title: 20A Momentous
 date: 2025-05-22
 tags: ["Show", "Safety","Quality Assurance"]
-description: Workflow automation system using n8n for speeding up process 
+description: Process, Licensing and Liasing to Quality Show
 image: "/assets/images/projects/25052201.jpg"
 layout: ../_includes/layouts/project-detail.njk
 #url: /projects/automation-workflow/
@@ -20,14 +20,14 @@ Ensure safety aspect of the structures, new drones, equipment, along with old pr
 
 ## Gallery
 
-<div class="image-gallery">
+<!-- <div class="image-gallery">
   <a href="https://placehold.co/800x600/4ecdc4/ffffff?text=Workflow+Dashboard" data-lightbox="workflow" data-title="Workflow Dashboard">
     <img src="https://placehold.co/200x150/4ecdc4/ffffff?text=Dashboard" alt="Workflow Dashboard">
   </a>
   <a href="https://placehold.co/800x600/4ecdc4/ffffff?text=Workflow+Editor" data-lightbox="workflow" data-title="Workflow Editor">
     <img src="https://placehold.co/200x150/4ecdc4/ffffff?text=Editor" alt="Workflow Editor">
   </a>
-</div>
+</div> -->
 
 ## Results
 
